@@ -53,5 +53,6 @@
   { "id": 52, "output": 360, "length": 2, "type": "NORMAL" },
   { "id": 53, "output": 368, "length": 2, "type": "NORMAL" },
   { "id": 54, "output": 199, "length": 2, "type": "LOW_IMPACT" },
-  { "id": 55, "output": 371, "length": 2, "type": "NORMAL" }
+  { "id": 55, "output": 371, "length": 2, "type": "NORMAL" },
+  { "id": 56, "output": 403, "length": 2, "type": "CLIMB" }
 ]
