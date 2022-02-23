@@ -3,4 +3,5 @@ ipykernel==6.9.1
 numpy==1.22.2
 matplotlib==3.5.1
 pandas==1.4.1
+scipy==1.8.0
 requests==2.27.1
