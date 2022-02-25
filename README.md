@@ -11,7 +11,7 @@
 
 #### <b>NFL</b>
 
-- [NFL Game - Basic](https://github.com/dpasse/monte/blob/main/workspace/nfl/sim-game-basic.ipynb)<br/><p>Project win percentages based on Points For / Against from the Regular Season.</p>
+- [NFL Game - Basic](https://github.com/dpasse/monte/blob/main/workspace/nfl/sim-game-basic.ipynb)<br/><p>Estimate Win Probabilities based on Points For and Points Against from the Regular Season.</p>
 
 #### <b>MLB</b>
 
