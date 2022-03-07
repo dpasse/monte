@@ -60,5 +60,11 @@
   { "id": 59, "output": 378, "length": 2, "type": "NORMAL" },
   { "id": 60, "output": 367, "length": 2, "type": "NORMAL" },
   { "id": 61, "output": 247, "length": 2, "type": "LOW_IMPACT" },
-  { "id": 62, "output": 366, "length": 2, "type": "NORMAL" }
+  { "id": 62, "output": 366, "length": 2, "type": "NORMAL" },
+  { "id": 63, "output": 365, "length": 2, "type": "NORMAL" },
+  { "id": 64, "output": 231, "length": 2, "type": "LOW_IMPACT" },
+  { "id": 65, "output": 370, "length": 2, "type": "NORMAL" },
+  { "id": 66, "output": 373, "length": 2, "type": "NORMAL" },
+  { "id": 67, "output": 384, "length": 2, "type": "NORMAL" },
+  { "id": 68, "output": 233, "length": 2, "type": "LOW_IMPACT" }
 ]

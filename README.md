@@ -9,6 +9,10 @@
 
 ## <b><u>Simulations</u></b>
 
+#### <b>NCAAM</b>
+
+- [NFL Game - Basic](https://github.com/dpasse/monte/blob/main/workspace/ncaa/sim-tourny.ipynb)<br/><p>NCAA Tournament Simulation using historical probabilities.</p>
+
 #### <b>NFL</b>
 
 - [NFL Game - Basic](https://github.com/dpasse/monte/blob/main/workspace/nfl/sim-game-basic.ipynb)<br/><p>Estimate Win Probabilities based on Points For and Points Against from the Regular Season.</p>

@@ -14,8 +14,15 @@ def main(year):
     assert response.status_code == 200
 
     bs = BeautifulSoup(response.content, features='html.parser')
-    rows = bs.find(id='div_games').find_all('tr')
+    rows = bs.find(id='games').find('tbody').find_all('tr')
     for row in rows:
+        cls = row.get('class')
+        if cls is not None:
+            continue
+
+        if 'thead' in cls:
+            continue
+
         cols = row.find_all('td')
         if len(cols) == 0:
             continue
