@@ -11,7 +11,7 @@
 
 #### <b>NCAAM</b>
 
-- [NFL Game - Basic](https://github.com/dpasse/monte/blob/main/workspace/ncaa/sim-tourny.ipynb)<br/><p>NCAA Tournament Simulation using historical probabilities.</p>
+- [NCAAM Tournament - Basic](https://github.com/dpasse/monte/blob/main/workspace/ncaa/sim-tourny.ipynb)<br/><p>NCAA Tournament Simulation using historical probabilities.</p>
 
 #### <b>NFL</b>
 
