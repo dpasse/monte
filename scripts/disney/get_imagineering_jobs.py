@@ -93,6 +93,7 @@ def parse(cache_path):
     df = pd.DataFrame(jobs)
     df['cat_id'] = df['cat_id'].astype(int)
     df['job_id'] = df['job_id'].astype(int)
+    df['date'] = pd.to_datetime(df.date)
 
     output_df = save(df, cache_path)
     print(f'saved #{len(output_df)} records')
