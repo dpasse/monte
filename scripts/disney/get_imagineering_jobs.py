@@ -18,6 +18,7 @@ def save(df, cache_path):
     df_gospel['cat_id'] = df_gospel['cat_id'].astype(int)
     df_gospel['job_id'] = df_gospel['job_id'].astype(int)
 
+    ## add date, close?
     df_gospel_slim = df_gospel[['cat_id', 'job_id']]
     df_scrapped_new = df \
         .merge(df_gospel_slim, indicator='i', how='outer')
