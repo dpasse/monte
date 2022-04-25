@@ -19,7 +19,12 @@ scrap_game_stats:
 scrap_imagineering_jobs:
 	python3 scripts/disney/get_imagineering_jobs.py
 
+scrap_imagineering_job_descriptions:
+	python3 scripts/disney/get_imagineering_job_descriptions.py
+
 run_jobs:
 	make scrap_imagineering_jobs
+	make scrap_imagineering_job_descriptions
+
 	make scrap_league_rosters
 	make scrap_game_stats
