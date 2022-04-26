@@ -17,7 +17,7 @@ def save(df, cache_path):
     df_gospel = pd.read_csv(cache_path)
     df_gospel['cat_id'] = df_gospel['cat_id'].astype(int)
     df_gospel['job_id'] = df_gospel['job_id'].astype(int)
-    df_gospel['date'] = pd.to_datetime(df.date)
+    df_gospel['date'] = pd.to_datetime(df_gospel['date'])
 
     ## add date, close?
     df_gospel_slim = df_gospel[['cat_id', 'job_id']]
