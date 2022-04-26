@@ -19,8 +19,18 @@ def break_into_sections(html):
         'Additional Information',
         'About Walt Disney Imagineering:',
         'About Walt Disney Imagineering',
+        'About Walt Disney World Resort:',
+        'About Walt Disney World Resort',
         'About The Walt Disney Company:',
         'About The Walt Disney Company',
+        'About Disneyland Resort:',
+        'About Disneyland Resort',
+        'About Parks, Experiences and Products:',
+        'About Parks, Experiences and Products',
+        'About Shanghai Disney Resort:',
+        'About Shanghai Disney Resort',
+        'About The Walt Disney Studios:',
+        'About The Walt Disney Studios',
     ]
 
     job_description_sections = []
@@ -39,6 +49,7 @@ def break_into_sections(html):
             continue
 
         match_html = match.group(2)
+        match_html = re.sub('<br/>', '\n', match_html)
         match_html = re.sub('<ul>', '\n\n<ul>', match_html)
         match_html = re.sub('</ul>', '</ul>\n\n', match_html)
         match_html = re.sub('<li>', '<li>* ', match_html)
