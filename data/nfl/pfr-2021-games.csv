@@ -1,571 +1,571 @@
-,week,team,pf,pa,yards,turnovers,played
-0,1,Tampa Bay Buccaneers,31,29,431,4,Dallas Cowboys
-1,1,Dallas Cowboys,29,31,451,1,Tampa Bay Buccaneers
-2,1,Philadelphia Eagles,32,6,434,0,Atlanta Falcons
-3,1,Atlanta Falcons,6,32,260,0,Philadelphia Eagles
-4,1,Pittsburgh Steelers,23,16,252,0,Buffalo Bills
-5,1,Buffalo Bills,16,23,371,1,Pittsburgh Steelers
-6,1,Carolina Panthers,19,14,381,1,New York Jets
-7,1,New York Jets,14,19,252,1,Carolina Panthers
-8,1,Cincinnati Bengals,27,24,366,0,Minnesota Vikings
-9,1,Minnesota Vikings,24,27,403,1,Cincinnati Bengals
-10,1,Seattle Seahawks,28,16,381,1,Indianapolis Colts
-11,1,Indianapolis Colts,16,28,336,1,Seattle Seahawks
-12,1,Arizona Cardinals,38,13,416,1,Tennessee Titans
-13,1,Tennessee Titans,13,38,248,3,Arizona Cardinals
-14,1,San Francisco 49ers,41,33,442,2,Detroit Lions
-15,1,Detroit Lions,33,41,430,1,San Francisco 49ers
-16,1,Houston Texans,37,21,449,0,Jacksonville Jaguars
-17,1,Jacksonville Jaguars,21,37,395,3,Houston Texans
-18,1,Los Angeles Chargers,20,16,424,2,Washington Football Team
-19,1,Washington Football Team,16,20,259,1,Los Angeles Chargers
-20,1,Kansas City Chiefs,33,29,397,0,Cleveland Browns
-21,1,Cleveland Browns,29,33,457,2,Kansas City Chiefs
-22,1,Denver Broncos,27,13,420,1,New York Giants
-23,1,New York Giants,13,27,314,1,Denver Broncos
-24,1,New Orleans Saints,38,3,322,0,Green Bay Packers
-25,1,Green Bay Packers,3,38,229,3,New Orleans Saints
-26,1,Miami Dolphins,17,16,259,1,New England Patriots
-27,1,New England Patriots,16,17,393,2,Miami Dolphins
-28,1,Los Angeles Rams,34,14,386,0,Chicago Bears
-29,1,Chicago Bears,14,34,322,2,Los Angeles Rams
-30,1,Las Vegas Raiders,33,27,491,1,Baltimore Ravens
-31,1,Baltimore Ravens,27,33,406,2,Las Vegas Raiders
-32,2,Washington Football Team,30,29,407,1,New York Giants
-33,2,New York Giants,29,30,391,0,Washington Football Team
-34,2,Buffalo Bills,35,0,314,2,Miami Dolphins
-35,2,Miami Dolphins,0,35,223,3,Buffalo Bills
-36,2,Carolina Panthers,26,7,383,1,New Orleans Saints
-37,2,New Orleans Saints,7,26,128,2,Carolina Panthers
-38,2,Chicago Bears,20,17,206,1,Cincinnati Bengals
-39,2,Cincinnati Bengals,17,20,248,4,Chicago Bears
-40,2,Cleveland Browns,31,21,355,2,Houston Texans
-41,2,Houston Texans,21,31,302,2,Cleveland Browns
-42,2,Los Angeles Rams,27,24,371,2,Indianapolis Colts
-43,2,Indianapolis Colts,24,27,354,2,Los Angeles Rams
-44,2,Denver Broncos,23,13,398,0,Jacksonville Jaguars
-45,2,Jacksonville Jaguars,13,23,189,2,Denver Broncos
-46,2,New England Patriots,25,6,260,0,New York Jets
-47,2,New York Jets,6,25,336,4,New England Patriots
-48,2,San Francisco 49ers,17,11,306,0,Philadelphia Eagles
-49,2,Philadelphia Eagles,11,17,328,0,San Francisco 49ers
-50,2,Las Vegas Raiders,26,17,425,0,Pittsburgh Steelers
-51,2,Pittsburgh Steelers,17,26,331,1,Las Vegas Raiders
-52,2,Tampa Bay Buccaneers,48,25,341,1,Atlanta Falcons
-53,2,Atlanta Falcons,25,48,348,3,Tampa Bay Buccaneers
-54,2,Arizona Cardinals,34,33,474,2,Minnesota Vikings
-55,2,Minnesota Vikings,33,34,419,0,Arizona Cardinals
-56,2,Dallas Cowboys,20,17,419,1,Los Angeles Chargers
-57,2,Los Angeles Chargers,17,20,408,2,Dallas Cowboys
-58,2,Tennessee Titans,33,30,532,1,Seattle Seahawks
-59,2,Seattle Seahawks,30,33,397,0,Tennessee Titans
-60,2,Baltimore Ravens,36,35,481,2,Kansas City Chiefs
-61,2,Kansas City Chiefs,35,36,405,2,Baltimore Ravens
-62,2,Green Bay Packers,35,17,323,0,Detroit Lions
-63,2,Detroit Lions,17,35,344,2,Green Bay Packers
-64,3,Carolina Panthers,24,9,407,0,Houston Texans
-65,3,Houston Texans,9,24,193,0,Carolina Panthers
-66,3,Atlanta Falcons,17,14,296,1,New York Giants
-67,3,New York Giants,14,17,346,1,Atlanta Falcons
-68,3,Buffalo Bills,43,21,481,0,Washington Football Team
-69,3,Washington Football Team,21,43,290,3,Buffalo Bills
-70,3,Cleveland Browns,26,6,418,0,Chicago Bears
-71,3,Chicago Bears,6,26,47,0,Cleveland Browns
-72,3,Cincinnati Bengals,24,10,268,1,Pittsburgh Steelers
-73,3,Pittsburgh Steelers,10,24,342,2,Cincinnati Bengals
-74,3,Tennessee Titans,25,16,368,3,Indianapolis Colts
-75,3,Indianapolis Colts,16,25,265,0,Tennessee Titans
-76,3,Arizona Cardinals,31,19,407,1,Jacksonville Jaguars
-77,3,Jacksonville Jaguars,19,31,361,4,Arizona Cardinals
-78,3,Baltimore Ravens,19,17,387,1,Detroit Lions
-79,3,Detroit Lions,17,19,285,0,Baltimore Ravens
-80,3,Los Angeles Chargers,30,24,352,0,Kansas City Chiefs
-81,3,Kansas City Chiefs,24,30,437,4,Los Angeles Chargers
-82,3,New Orleans Saints,28,13,252,0,New England Patriots
-83,3,New England Patriots,13,28,300,3,New Orleans Saints
-84,3,Denver Broncos,26,0,343,1,New York Jets
-85,3,New York Jets,0,26,162,2,Denver Broncos
-86,3,Las Vegas Raiders,31,28,497,1,Miami Dolphins
-87,3,Miami Dolphins,28,31,330,0,Las Vegas Raiders
-88,3,Minnesota Vikings,30,17,453,0,Seattle Seahawks
-89,3,Seattle Seahawks,17,30,389,0,Minnesota Vikings
-90,3,Los Angeles Rams,34,24,407,0,Tampa Bay Buccaneers
-91,3,Tampa Bay Buccaneers,24,34,446,0,Los Angeles Rams
-92,3,Green Bay Packers,30,28,353,0,San Francisco 49ers
-93,3,San Francisco 49ers,28,30,298,2,Green Bay Packers
-94,3,Dallas Cowboys,41,21,380,1,Philadelphia Eagles
-95,3,Philadelphia Eagles,21,41,367,2,Dallas Cowboys
-96,4,Cincinnati Bengals,24,21,420,0,Jacksonville Jaguars
-97,4,Jacksonville Jaguars,21,24,341,0,Cincinnati Bengals
-98,4,Washington Football Team,34,30,412,0,Atlanta Falcons
-99,4,Atlanta Falcons,30,34,374,0,Washington Football Team
-100,4,Buffalo Bills,40,0,450,1,Houston Texans
-101,4,Houston Texans,0,40,109,5,Buffalo Bills
-102,4,Dallas Cowboys,36,28,433,0,Carolina Panthers
-103,4,Carolina Panthers,28,36,379,2,Dallas Cowboys
-104,4,Chicago Bears,24,14,373,1,Detroit Lions
-105,4,Detroit Lions,14,24,351,2,Chicago Bears
-106,4,Cleveland Browns,14,7,327,0,Minnesota Vikings
-107,4,Minnesota Vikings,7,14,255,1,Cleveland Browns
-108,4,Indianapolis Colts,27,17,349,1,Miami Dolphins
-109,4,Miami Dolphins,17,27,203,2,Indianapolis Colts
-110,4,Kansas City Chiefs,42,30,471,1,Philadelphia Eagles
-111,4,Philadelphia Eagles,30,42,461,0,Kansas City Chiefs
-112,4,New York Giants,27,21,485,1,New Orleans Saints
-113,4,New Orleans Saints,21,27,405,1,New York Giants
-114,4,New York Jets,27,24,355,1,Tennessee Titans
-115,4,Tennessee Titans,24,27,430,0,New York Jets
-116,4,Arizona Cardinals,37,20,465,0,Los Angeles Rams
-117,4,Los Angeles Rams,20,37,401,2,Arizona Cardinals
-118,4,Seattle Seahawks,28,21,234,0,San Francisco 49ers
-119,4,San Francisco 49ers,21,28,457,2,Seattle Seahawks
-120,4,Baltimore Ravens,23,7,406,0,Denver Broncos
-121,4,Denver Broncos,7,23,254,1,Baltimore Ravens
-122,4,Green Bay Packers,27,17,367,1,Pittsburgh Steelers
-123,4,Pittsburgh Steelers,17,27,282,2,Green Bay Packers
-124,4,Tampa Bay Buccaneers,19,17,381,0,New England Patriots
-125,4,New England Patriots,17,19,294,2,Tampa Bay Buccaneers
-126,4,Los Angeles Chargers,28,14,380,0,Las Vegas Raiders
-127,4,Las Vegas Raiders,14,28,213,1,Los Angeles Chargers
-128,5,Los Angeles Rams,26,17,476,1,Seattle Seahawks
-129,5,Seattle Seahawks,17,26,354,2,Los Angeles Rams
-130,5,Atlanta Falcons,27,20,450,2,New York Jets
-131,5,New York Jets,20,27,230,1,Atlanta Falcons
-132,5,Philadelphia Eagles,21,18,273,2,Carolina Panthers
-133,5,Carolina Panthers,18,21,267,3,Philadelphia Eagles
-134,5,Green Bay Packers,25,22,466,1,Cincinnati Bengals
-135,5,Cincinnati Bengals,22,25,367,2,Green Bay Packers
-136,5,Pittsburgh Steelers,27,19,391,1,Denver Broncos
-137,5,Denver Broncos,19,27,374,1,Pittsburgh Steelers
-138,5,Minnesota Vikings,19,17,384,2,Detroit Lions
-139,5,Detroit Lions,17,19,288,2,Minnesota Vikings
-140,5,New England Patriots,25,22,352,2,Houston Texans
-141,5,Houston Texans,22,25,360,1,New England Patriots
-142,5,Tennessee Titans,37,19,368,0,Jacksonville Jaguars
-143,5,Jacksonville Jaguars,19,37,454,2,Tennessee Titans
-144,5,Tampa Bay Buccaneers,45,17,558,0,Miami Dolphins
-145,5,Miami Dolphins,17,45,301,2,Tampa Bay Buccaneers
-146,5,New Orleans Saints,33,22,369,2,Washington Football Team
-147,5,Washington Football Team,22,33,373,2,New Orleans Saints
-148,5,Chicago Bears,20,9,252,0,Las Vegas Raiders
-149,5,Las Vegas Raiders,9,20,259,1,Chicago Bears
-150,5,Los Angeles Chargers,47,42,493,1,Cleveland Browns
-151,5,Cleveland Browns,42,47,531,0,Los Angeles Chargers
-152,5,Arizona Cardinals,17,10,304,1,San Francisco 49ers
-153,5,San Francisco 49ers,10,17,338,1,Arizona Cardinals
-154,5,Dallas Cowboys,44,20,515,2,New York Giants
-155,5,New York Giants,20,44,367,2,Dallas Cowboys
-156,5,Buffalo Bills,38,20,436,0,Kansas City Chiefs
-157,5,Kansas City Chiefs,20,38,392,4,Buffalo Bills
-158,5,Baltimore Ravens,31,25,523,1,Indianapolis Colts
-159,5,Indianapolis Colts,25,31,513,1,Baltimore Ravens
-160,6,Tampa Bay Buccaneers,28,22,399,1,Philadelphia Eagles
-161,6,Philadelphia Eagles,22,28,213,1,Tampa Bay Buccaneers
-162,6,Jacksonville Jaguars,23,20,396,1,Miami Dolphins
-163,6,Miami Dolphins,20,23,431,1,Jacksonville Jaguars
-164,6,Minnesota Vikings,34,28,571,1,Carolina Panthers
-165,6,Carolina Panthers,28,34,306,3,Minnesota Vikings
-166,6,Green Bay Packers,24,14,323,0,Chicago Bears
-167,6,Chicago Bears,14,24,277,1,Green Bay Packers
-168,6,Cincinnati Bengals,34,11,398,1,Detroit Lions
-169,6,Detroit Lions,11,34,228,1,Cincinnati Bengals
-170,6,Indianapolis Colts,31,3,388,0,Houston Texans
-171,6,Houston Texans,3,31,353,3,Indianapolis Colts
-172,6,Kansas City Chiefs,31,13,499,3,Washington Football Team
-173,6,Washington Football Team,13,31,276,2,Kansas City Chiefs
-174,6,Los Angeles Rams,38,11,365,2,New York Giants
-175,6,New York Giants,11,38,261,4,Los Angeles Rams
-176,6,Baltimore Ravens,34,6,327,2,Los Angeles Chargers
-177,6,Los Angeles Chargers,6,34,208,1,Baltimore Ravens
-178,6,Arizona Cardinals,37,14,352,0,Cleveland Browns
-179,6,Cleveland Browns,14,37,290,3,Arizona Cardinals
-180,6,Dallas Cowboys,35,29,567,2,New England Patriots
-181,6,New England Patriots,29,35,335,2,Dallas Cowboys
-182,6,Las Vegas Raiders,34,24,426,0,Denver Broncos
-183,6,Denver Broncos,24,34,421,4,Las Vegas Raiders
-184,6,Pittsburgh Steelers,23,20,345,1,Seattle Seahawks
-185,6,Seattle Seahawks,20,23,309,1,Pittsburgh Steelers
-186,6,Tennessee Titans,34,31,362,1,Buffalo Bills
-187,6,Buffalo Bills,31,34,417,1,Tennessee Titans
-188,7,Cleveland Browns,17,14,376,0,Denver Broncos
-189,7,Denver Broncos,14,17,223,1,Cleveland Browns
-190,7,Atlanta Falcons,30,28,397,2,Miami Dolphins
-191,7,Miami Dolphins,28,30,413,2,Atlanta Falcons
-192,7,New York Giants,25,3,302,0,Carolina Panthers
-193,7,Carolina Panthers,3,25,173,1,New York Giants
-194,7,Cincinnati Bengals,41,17,520,1,Baltimore Ravens
-195,7,Baltimore Ravens,17,41,393,0,Cincinnati Bengals
-196,7,Green Bay Packers,24,10,304,1,Washington Football Team
-197,7,Washington Football Team,10,24,430,2,Green Bay Packers
-198,7,Tennessee Titans,27,3,369,1,Kansas City Chiefs
-199,7,Kansas City Chiefs,3,27,334,3,Tennessee Titans
-200,7,New England Patriots,54,13,551,0,New York Jets
-201,7,New York Jets,13,54,299,3,New England Patriots
-202,7,Los Angeles Rams,28,19,374,0,Detroit Lions
-203,7,Detroit Lions,19,28,415,2,Los Angeles Rams
-204,7,Las Vegas Raiders,33,22,442,1,Philadelphia Eagles
-205,7,Philadelphia Eagles,22,33,358,2,Las Vegas Raiders
-206,7,Tampa Bay Buccaneers,38,3,408,1,Chicago Bears
-207,7,Chicago Bears,3,38,311,5,Tampa Bay Buccaneers
-208,7,Arizona Cardinals,31,5,397,1,Houston Texans
-209,7,Houston Texans,5,31,160,1,Arizona Cardinals
-210,7,Indianapolis Colts,30,18,295,2,San Francisco 49ers
-211,7,San Francisco 49ers,18,30,280,4,Indianapolis Colts
-212,7,New Orleans Saints,13,10,304,1,Seattle Seahawks
-213,7,Seattle Seahawks,10,13,219,0,New Orleans Saints
-214,8,Green Bay Packers,24,21,335,0,Arizona Cardinals
-215,8,Arizona Cardinals,21,24,334,3,Green Bay Packers
-216,8,Carolina Panthers,19,13,332,1,Atlanta Falcons
-217,8,Atlanta Falcons,13,19,213,2,Carolina Panthers
-218,8,Buffalo Bills,26,11,351,0,Miami Dolphins
-219,8,Miami Dolphins,11,26,262,2,Buffalo Bills
-220,8,San Francisco 49ers,33,22,467,0,Chicago Bears
-221,8,Chicago Bears,22,33,324,1,San Francisco 49ers
-222,8,New York Jets,34,31,511,3,Cincinnati Bengals
-223,8,Cincinnati Bengals,31,34,318,1,New York Jets
-224,8,Pittsburgh Steelers,15,10,370,0,Cleveland Browns
-225,8,Cleveland Browns,10,15,306,1,Pittsburgh Steelers
-226,8,Tennessee Titans,34,31,340,2,Indianapolis Colts
-227,8,Indianapolis Colts,31,34,307,3,Tennessee Titans
-228,8,Philadelphia Eagles,44,6,350,0,Detroit Lions
-229,8,Detroit Lions,6,44,228,1,Philadelphia Eagles
-230,8,Los Angeles Rams,38,22,467,0,Houston Texans
-231,8,Houston Texans,22,38,323,1,Los Angeles Rams
-232,8,Seattle Seahawks,31,7,229,0,Jacksonville Jaguars
-233,8,Jacksonville Jaguars,7,31,309,1,Seattle Seahawks
-234,8,New England Patriots,27,24,352,1,Los Angeles Chargers
-235,8,Los Angeles Chargers,24,27,369,2,New England Patriots
-236,8,New Orleans Saints,36,27,361,0,Tampa Bay Buccaneers
-237,8,Tampa Bay Buccaneers,27,36,421,3,New Orleans Saints
-238,8,Denver Broncos,17,10,273,1,Washington Football Team
-239,8,Washington Football Team,10,17,342,2,Denver Broncos
-240,8,Dallas Cowboys,20,16,419,2,Minnesota Vikings
-241,8,Minnesota Vikings,16,20,278,0,Dallas Cowboys
-242,8,Kansas City Chiefs,20,17,368,2,New York Giants
-243,8,New York Giants,17,20,300,1,Kansas City Chiefs
-244,9,Indianapolis Colts,45,30,532,0,New York Jets
-245,9,New York Jets,30,45,486,2,Indianapolis Colts
-246,9,Atlanta Falcons,27,25,366,0,New Orleans Saints
-247,9,New Orleans Saints,25,27,376,1,Atlanta Falcons
-248,9,Jacksonville Jaguars,9,6,218,1,Buffalo Bills
-249,9,Buffalo Bills,6,9,301,3,Jacksonville Jaguars
-250,9,Denver Broncos,30,16,407,0,Dallas Cowboys
-251,9,Dallas Cowboys,16,30,290,2,Denver Broncos
-252,9,Baltimore Ravens,34,31,500,2,Minnesota Vikings
-253,9,Minnesota Vikings,31,34,318,0,Baltimore Ravens
-254,9,New England Patriots,24,6,273,2,Carolina Panthers
-255,9,Carolina Panthers,6,24,240,3,New England Patriots
-256,9,Cleveland Browns,41,16,361,0,Cincinnati Bengals
-257,9,Cincinnati Bengals,16,41,348,3,Cleveland Browns
-258,9,Miami Dolphins,17,9,262,5,Houston Texans
-259,9,Houston Texans,9,17,272,4,Miami Dolphins
-260,9,New York Giants,23,16,247,1,Las Vegas Raiders
-261,9,Las Vegas Raiders,16,23,403,3,New York Giants
-262,9,Los Angeles Chargers,27,24,445,0,Philadelphia Eagles
-263,9,Philadelphia Eagles,24,27,331,0,Los Angeles Chargers
-264,9,Arizona Cardinals,31,17,437,0,San Francisco 49ers
-265,9,San Francisco 49ers,17,31,337,3,Arizona Cardinals
-266,9,Kansas City Chiefs,13,7,237,0,Green Bay Packers
-267,9,Green Bay Packers,7,13,301,2,Kansas City Chiefs
-268,9,Tennessee Titans,28,16,194,1,Los Angeles Rams
-269,9,Los Angeles Rams,16,28,347,2,Tennessee Titans
-270,9,Pittsburgh Steelers,29,27,280,1,Chicago Bears
-271,9,Chicago Bears,27,29,414,2,Pittsburgh Steelers
-272,10,Miami Dolphins,22,10,350,0,Baltimore Ravens
-273,10,Baltimore Ravens,10,22,304,2,Miami Dolphins
-274,10,Dallas Cowboys,43,3,431,1,Atlanta Falcons
-275,10,Atlanta Falcons,3,43,214,3,Dallas Cowboys
-276,10,Buffalo Bills,45,17,489,2,New York Jets
-277,10,New York Jets,17,45,366,5,Buffalo Bills
-278,10,Pittsburgh Steelers,16,16,387,3,Detroit Lions
-279,10,Detroit Lions,16,16,306,0,Pittsburgh Steelers
-280,10,Tennessee Titans,23,21,264,0,New Orleans Saints
-281,10,New Orleans Saints,21,23,373,1,Tennessee Titans
-282,10,Washington Football Team,29,19,320,1,Tampa Bay Buccaneers
-283,10,Tampa Bay Buccaneers,19,29,273,2,Washington Football Team
-284,10,New England Patriots,45,7,452,0,Cleveland Browns
-285,10,Cleveland Browns,7,45,217,1,New England Patriots
-286,10,Indianapolis Colts,23,17,295,0,Jacksonville Jaguars
-287,10,Jacksonville Jaguars,17,23,331,1,Indianapolis Colts
-288,10,Minnesota Vikings,27,20,381,1,Los Angeles Chargers
-289,10,Los Angeles Chargers,20,27,253,1,Minnesota Vikings
-290,10,Carolina Panthers,34,10,341,2,Arizona Cardinals
-291,10,Arizona Cardinals,10,34,169,2,Carolina Panthers
-292,10,Philadelphia Eagles,30,13,386,1,Denver Broncos
-293,10,Denver Broncos,13,30,308,1,Philadelphia Eagles
-294,10,Green Bay Packers,17,0,393,1,Seattle Seahawks
-295,10,Seattle Seahawks,0,17,208,2,Green Bay Packers
-296,10,Kansas City Chiefs,41,14,516,1,Las Vegas Raiders
-297,10,Las Vegas Raiders,14,41,299,2,Kansas City Chiefs
-298,10,San Francisco 49ers,31,10,335,0,Los Angeles Rams
-299,10,Los Angeles Rams,10,31,278,2,San Francisco 49ers
-300,11,New England Patriots,25,0,308,1,Atlanta Falcons
-301,11,Atlanta Falcons,0,25,165,4,New England Patriots
-302,11,Indianapolis Colts,41,15,370,0,Buffalo Bills
-303,11,Buffalo Bills,15,41,311,4,Indianapolis Colts
-304,11,Baltimore Ravens,16,13,299,1,Chicago Bears
-305,11,Chicago Bears,13,16,353,1,Baltimore Ravens
-306,11,Houston Texans,22,13,190,0,Tennessee Titans
-307,11,Tennessee Titans,13,22,420,5,Houston Texans
-308,11,San Francisco 49ers,30,10,333,0,Jacksonville Jaguars
-309,11,Jacksonville Jaguars,10,30,200,2,San Francisco 49ers
-310,11,Philadelphia Eagles,40,29,380,1,New Orleans Saints
-311,11,New Orleans Saints,29,40,323,3,Philadelphia Eagles
-312,11,Washington Football Team,27,21,369,1,Carolina Panthers
-313,11,Carolina Panthers,21,27,297,0,Washington Football Team
-314,11,Cleveland Browns,13,10,349,2,Detroit Lions
-315,11,Detroit Lions,10,13,245,2,Cleveland Browns
-316,11,Minnesota Vikings,34,31,408,0,Green Bay Packers
-317,11,Green Bay Packers,31,34,467,0,Minnesota Vikings
-318,11,Miami Dolphins,24,17,388,1,New York Jets
-319,11,New York Jets,17,24,380,1,Miami Dolphins
-320,11,Cincinnati Bengals,32,13,288,1,Las Vegas Raiders
-321,11,Las Vegas Raiders,13,32,278,2,Cincinnati Bengals
-322,11,Kansas City Chiefs,19,9,370,2,Dallas Cowboys
-323,11,Dallas Cowboys,9,19,276,3,Kansas City Chiefs
-324,11,Arizona Cardinals,23,13,413,0,Seattle Seahawks
-325,11,Seattle Seahawks,13,23,266,0,Arizona Cardinals
-326,11,Los Angeles Chargers,41,37,533,1,Pittsburgh Steelers
-327,11,Pittsburgh Steelers,37,41,300,0,Los Angeles Chargers
-328,11,Tampa Bay Buccaneers,30,10,402,1,New York Giants
-329,11,New York Giants,10,30,215,3,Tampa Bay Buccaneers
-330,12,Chicago Bears,16,14,378,1,Detroit Lions
-331,12,Detroit Lions,14,16,239,1,Chicago Bears
-332,12,Las Vegas Raiders,36,33,509,0,Dallas Cowboys
-333,12,Dallas Cowboys,33,36,437,0,Las Vegas Raiders
-334,12,Buffalo Bills,31,6,361,2,New Orleans Saints
-335,12,New Orleans Saints,6,31,190,1,Buffalo Bills
-336,12,Atlanta Falcons,21,14,332,1,Jacksonville Jaguars
-337,12,Jacksonville Jaguars,14,21,357,2,Atlanta Falcons
-338,12,Cincinnati Bengals,41,10,370,1,Pittsburgh Steelers
-339,12,Pittsburgh Steelers,10,41,301,3,Cincinnati Bengals
-340,12,New York Jets,21,14,266,1,Houston Texans
-341,12,Houston Texans,14,21,202,1,New York Jets
-342,12,New York Giants,13,7,264,0,Philadelphia Eagles
-343,12,Philadelphia Eagles,7,13,332,4,New York Giants
-344,12,Miami Dolphins,33,10,315,1,Carolina Panthers
-345,12,Carolina Panthers,10,33,198,3,Miami Dolphins
-346,12,Tampa Bay Buccaneers,38,31,359,2,Indianapolis Colts
-347,12,Indianapolis Colts,31,38,392,5,Tampa Bay Buccaneers
-348,12,New England Patriots,36,13,394,0,Tennessee Titans
-349,12,Tennessee Titans,13,36,355,4,New England Patriots
-350,12,Denver Broncos,28,13,302,1,Los Angeles Chargers
-351,12,Los Angeles Chargers,13,28,357,2,Denver Broncos
-352,12,San Francisco 49ers,34,26,423,1,Minnesota Vikings
-353,12,Minnesota Vikings,26,34,323,2,San Francisco 49ers
-354,12,Green Bay Packers,36,28,399,1,Los Angeles Rams
-355,12,Los Angeles Rams,28,36,353,3,Green Bay Packers
-356,12,Baltimore Ravens,16,10,303,4,Cleveland Browns
-357,12,Cleveland Browns,10,16,262,2,Baltimore Ravens
-358,12,Washington Football Team,17,15,371,1,Seattle Seahawks
-359,12,Seattle Seahawks,15,17,267,1,Washington Football Team
-360,13,Dallas Cowboys,27,17,377,1,New Orleans Saints
-361,13,New Orleans Saints,17,27,405,4,Dallas Cowboys
-362,13,Tampa Bay Buccaneers,30,17,425,1,Atlanta Falcons
-363,13,Atlanta Falcons,17,30,380,1,Tampa Bay Buccaneers
-364,13,Arizona Cardinals,33,22,257,0,Chicago Bears
-365,13,Chicago Bears,22,33,329,4,Arizona Cardinals
-366,13,Los Angeles Chargers,41,22,363,3,Cincinnati Bengals
-367,13,Cincinnati Bengals,22,41,356,4,Los Angeles Chargers
-368,13,Detroit Lions,29,27,372,2,Minnesota Vikings
-369,13,Minnesota Vikings,27,29,426,1,Detroit Lions
-370,13,Philadelphia Eagles,33,18,418,0,New York Jets
-371,13,New York Jets,18,33,281,1,Philadelphia Eagles
-372,13,Indianapolis Colts,31,0,389,1,Houston Texans
-373,13,Houston Texans,0,31,141,2,Indianapolis Colts
-374,13,Miami Dolphins,20,9,297,0,New York Giants
-375,13,New York Giants,9,20,250,1,Miami Dolphins
-376,13,Seattle Seahawks,30,23,327,3,San Francisco 49ers
-377,13,San Francisco 49ers,23,30,365,3,Seattle Seahawks
-378,13,Washington Football Team,17,15,298,1,Las Vegas Raiders
-379,13,Las Vegas Raiders,15,17,310,0,Washington Football Team
-380,13,Los Angeles Rams,37,7,418,0,Jacksonville Jaguars
-381,13,Jacksonville Jaguars,7,37,197,2,Los Angeles Rams
-382,13,Pittsburgh Steelers,20,19,321,0,Baltimore Ravens
-383,13,Baltimore Ravens,19,20,326,1,Pittsburgh Steelers
-384,13,Kansas City Chiefs,22,9,267,1,Denver Broncos
-385,13,Denver Broncos,9,22,404,3,Kansas City Chiefs
-386,13,New England Patriots,14,10,241,1,Buffalo Bills
-387,13,Buffalo Bills,10,14,230,1,New England Patriots
-388,14,Minnesota Vikings,36,28,458,2,Pittsburgh Steelers
-389,14,Pittsburgh Steelers,28,36,375,1,Minnesota Vikings
-390,14,Atlanta Falcons,29,21,318,1,Carolina Panthers
-391,14,Carolina Panthers,21,29,334,3,Atlanta Falcons
-392,14,San Francisco 49ers,26,23,355,0,Cincinnati Bengals
-393,14,Cincinnati Bengals,23,26,397,2,San Francisco 49ers
-394,14,Cleveland Browns,24,22,290,1,Baltimore Ravens
-395,14,Baltimore Ravens,22,24,389,2,Cleveland Browns
-396,14,Dallas Cowboys,27,20,323,2,Washington Football Team
-397,14,Washington Football Team,20,27,224,4,Dallas Cowboys
-398,14,Seattle Seahawks,33,13,453,0,Houston Texans
-399,14,Houston Texans,13,33,380,0,Seattle Seahawks
-400,14,Tennessee Titans,20,0,263,0,Jacksonville Jaguars
-401,14,Jacksonville Jaguars,0,20,192,4,Tennessee Titans
-402,14,Kansas City Chiefs,48,9,372,0,Las Vegas Raiders
-403,14,Las Vegas Raiders,9,48,290,5,Kansas City Chiefs
-404,14,New Orleans Saints,30,9,344,0,New York Jets
-405,14,New York Jets,9,30,256,0,New Orleans Saints
-406,14,Denver Broncos,38,10,358,0,Detroit Lions
-407,14,Detroit Lions,10,38,316,2,Denver Broncos
-408,14,Los Angeles Chargers,37,21,423,0,New York Giants
-409,14,New York Giants,21,37,316,2,Los Angeles Chargers
-410,14,Tampa Bay Buccaneers,33,27,488,0,Buffalo Bills
-411,14,Buffalo Bills,27,33,466,1,Tampa Bay Buccaneers
-412,14,Green Bay Packers,45,30,439,0,Chicago Bears
-413,14,Chicago Bears,30,45,347,3,Green Bay Packers
-414,14,Los Angeles Rams,30,23,356,0,Arizona Cardinals
-415,14,Arizona Cardinals,23,30,447,2,Los Angeles Rams
-416,15,Kansas City Chiefs,34,28,496,2,Los Angeles Chargers
-417,15,Los Angeles Chargers,28,34,428,2,Kansas City Chiefs
-418,15,Indianapolis Colts,27,17,275,1,New England Patriots
-419,15,New England Patriots,17,27,365,2,Indianapolis Colts
-420,15,Buffalo Bills,31,14,312,1,Carolina Panthers
-421,15,Carolina Panthers,14,31,275,1,Buffalo Bills
-422,15,Detroit Lions,30,12,338,1,Arizona Cardinals
-423,15,Arizona Cardinals,12,30,398,1,Detroit Lions
-424,15,Dallas Cowboys,21,6,328,1,New York Giants
-425,15,New York Giants,6,21,302,4,Dallas Cowboys
-426,15,Green Bay Packers,31,30,346,0,Baltimore Ravens
-427,15,Baltimore Ravens,30,31,354,0,Green Bay Packers
-428,15,Houston Texans,30,16,281,1,Jacksonville Jaguars
-429,15,Jacksonville Jaguars,16,30,296,0,Houston Texans
-430,15,Miami Dolphins,31,24,379,3,New York Jets
-431,15,New York Jets,24,31,228,1,Miami Dolphins
-432,15,Pittsburgh Steelers,19,13,168,0,Tennessee Titans
-433,15,Tennessee Titans,13,19,318,4,Pittsburgh Steelers
-434,15,San Francisco 49ers,31,13,397,1,Atlanta Falcons
-435,15,Atlanta Falcons,13,31,275,1,San Francisco 49ers
-436,15,Cincinnati Bengals,15,10,249,0,Denver Broncos
-437,15,Denver Broncos,10,15,292,1,Cincinnati Bengals
-438,15,New Orleans Saints,9,0,212,0,Tampa Bay Buccaneers
-439,15,Tampa Bay Buccaneers,0,9,302,2,New Orleans Saints
-440,15,Las Vegas Raiders,16,14,328,2,Cleveland Browns
-441,15,Cleveland Browns,14,16,236,0,Las Vegas Raiders
-442,15,Minnesota Vikings,17,9,193,1,Chicago Bears
-443,15,Chicago Bears,9,17,370,3,Minnesota Vikings
-444,15,Philadelphia Eagles,27,17,519,2,Washington Football Team
-445,15,Washington Football Team,17,27,237,0,Philadelphia Eagles
-446,15,Los Angeles Rams,20,10,332,1,Seattle Seahawks
-447,15,Seattle Seahawks,10,20,214,1,Los Angeles Rams
-448,16,Tennessee Titans,20,17,278,0,San Francisco 49ers
-449,16,San Francisco 49ers,17,20,389,2,Tennessee Titans
-450,16,Green Bay Packers,24,22,311,0,Cleveland Browns
-451,16,Cleveland Browns,22,24,408,4,Green Bay Packers
-452,16,Indianapolis Colts,22,16,346,0,Arizona Cardinals
-453,16,Arizona Cardinals,16,22,378,0,Indianapolis Colts
-454,16,Atlanta Falcons,20,16,254,1,Detroit Lions
-455,16,Detroit Lions,16,20,338,1,Atlanta Falcons
-456,16,Buffalo Bills,33,21,428,0,New England Patriots
-457,16,New England Patriots,21,33,288,2,Buffalo Bills
-458,16,Tampa Bay Buccaneers,32,6,391,0,Carolina Panthers
-459,16,Carolina Panthers,6,32,273,1,Tampa Bay Buccaneers
-460,16,Cincinnati Bengals,41,21,575,0,Baltimore Ravens
-461,16,Baltimore Ravens,21,41,334,1,Cincinnati Bengals
-462,16,Houston Texans,41,29,437,0,Los Angeles Chargers
-463,16,Los Angeles Chargers,29,41,417,3,Houston Texans
-464,16,New York Jets,26,21,373,0,Jacksonville Jaguars
-465,16,Jacksonville Jaguars,21,26,384,1,New York Jets
-466,16,Los Angeles Rams,30,23,356,3,Minnesota Vikings
-467,16,Minnesota Vikings,23,30,361,1,Los Angeles Rams
-468,16,Philadelphia Eagles,34,10,324,0,New York Giants
-469,16,New York Giants,10,34,192,2,Philadelphia Eagles
-470,16,Chicago Bears,25,24,317,0,Seattle Seahawks
-471,16,Seattle Seahawks,24,25,331,0,Chicago Bears
-472,16,Las Vegas Raiders,17,13,342,3,Denver Broncos
-473,16,Denver Broncos,13,17,158,0,Las Vegas Raiders
-474,16,Kansas City Chiefs,36,10,381,0,Pittsburgh Steelers
-475,16,Pittsburgh Steelers,10,36,303,3,Kansas City Chiefs
-476,16,Dallas Cowboys,56,14,497,0,Washington Football Team
-477,16,Washington Football Team,14,56,257,2,Dallas Cowboys
-478,16,Miami Dolphins,20,3,259,1,New Orleans Saints
-479,16,New Orleans Saints,3,20,164,2,Miami Dolphins
-480,17,Buffalo Bills,29,15,351,3,Atlanta Falcons
-481,17,Atlanta Falcons,15,29,265,1,Buffalo Bills
-482,17,New Orleans Saints,18,10,280,0,Carolina Panthers
-483,17,Carolina Panthers,10,18,178,2,New Orleans Saints
-484,17,Chicago Bears,29,3,249,2,New York Giants
-485,17,New York Giants,3,29,155,4,Chicago Bears
-486,17,Cincinnati Bengals,34,31,475,0,Kansas City Chiefs
-487,17,Kansas City Chiefs,31,34,414,0,Cincinnati Bengals
-488,17,Las Vegas Raiders,23,20,326,2,Indianapolis Colts
-489,17,Indianapolis Colts,20,23,262,0,Las Vegas Raiders
-490,17,Arizona Cardinals,25,22,399,0,Dallas Cowboys
-491,17,Dallas Cowboys,22,25,301,1,Arizona Cardinals
-492,17,New England Patriots,50,10,471,0,Jacksonville Jaguars
-493,17,Jacksonville Jaguars,10,50,253,3,New England Patriots
-494,17,Tennessee Titans,34,3,308,0,Miami Dolphins
-495,17,Miami Dolphins,3,34,256,2,Tennessee Titans
-496,17,Tampa Bay Buccaneers,28,24,467,1,New York Jets
-497,17,New York Jets,24,28,374,1,Tampa Bay Buccaneers
-498,17,Philadelphia Eagles,20,16,330,0,Washington Football Team
-499,17,Washington Football Team,16,20,312,1,Philadelphia Eagles
-500,17,Los Angeles Chargers,34,13,341,0,Denver Broncos
-501,17,Denver Broncos,13,34,319,1,Los Angeles Chargers
-502,17,San Francisco 49ers,23,7,416,1,Houston Texans
-503,17,Houston Texans,7,23,222,1,San Francisco 49ers
-504,17,Seattle Seahawks,51,29,497,0,Detroit Lions
-505,17,Detroit Lions,29,51,357,3,Seattle Seahawks
-506,17,Los Angeles Rams,20,19,373,3,Baltimore Ravens
-507,17,Baltimore Ravens,19,20,327,2,Los Angeles Rams
-508,17,Green Bay Packers,37,10,481,0,Minnesota Vikings
-509,17,Minnesota Vikings,10,37,206,0,Green Bay Packers
-510,17,Pittsburgh Steelers,26,14,299,1,Cleveland Browns
-511,17,Cleveland Browns,14,26,232,2,Pittsburgh Steelers
-512,18,Kansas City Chiefs,28,24,390,0,Denver Broncos
-513,18,Denver Broncos,24,28,364,1,Kansas City Chiefs
-514,18,Dallas Cowboys,51,26,475,0,Philadelphia Eagles
-515,18,Philadelphia Eagles,26,51,315,1,Dallas Cowboys
-516,18,New Orleans Saints,30,20,369,0,Atlanta Falcons
-517,18,Atlanta Falcons,20,30,257,3,New Orleans Saints
-518,18,Buffalo Bills,27,10,424,0,New York Jets
-519,18,New York Jets,10,27,53,0,Buffalo Bills
-520,18,Tampa Bay Buccaneers,41,17,409,0,Carolina Panthers
-521,18,Carolina Panthers,17,41,317,2,Tampa Bay Buccaneers
-522,18,Minnesota Vikings,31,17,331,0,Chicago Bears
-523,18,Chicago Bears,17,31,356,2,Minnesota Vikings
-524,18,Cleveland Browns,21,16,376,2,Cincinnati Bengals
-525,18,Cincinnati Bengals,16,21,182,0,Cleveland Browns
-526,18,Jacksonville Jaguars,26,11,318,0,Indianapolis Colts
-527,18,Indianapolis Colts,11,26,233,2,Jacksonville Jaguars
-528,18,Detroit Lions,37,30,404,0,Green Bay Packers
-529,18,Green Bay Packers,30,37,378,3,Detroit Lions
-530,18,Tennessee Titans,28,25,405,0,Houston Texans
-531,18,Houston Texans,25,28,353,0,Tennessee Titans
-532,18,Miami Dolphins,33,24,298,0,New England Patriots
-533,18,New England Patriots,24,33,379,3,Miami Dolphins
-534,18,Washington Football Team,22,7,325,0,New York Giants
-535,18,New York Giants,7,22,177,3,Washington Football Team
-536,18,Pittsburgh Steelers,16,13,314,1,Baltimore Ravens
-537,18,Baltimore Ravens,13,16,381,3,Pittsburgh Steelers
-538,18,Seattle Seahawks,38,30,431,2,Arizona Cardinals
-539,18,Arizona Cardinals,30,38,305,1,Seattle Seahawks
-540,18,San Francisco 49ers,27,24,449,2,Los Angeles Rams
-541,18,Los Angeles Rams,24,27,265,2,San Francisco 49ers
-542,18,Las Vegas Raiders,35,32,346,0,Los Angeles Chargers
-543,18,Los Angeles Chargers,32,35,440,2,Las Vegas Raiders
-544,WildCard,Cincinnati Bengals,26,19,308,0,Las Vegas Raiders
-545,WildCard,Las Vegas Raiders,19,26,385,2,Cincinnati Bengals
-546,WildCard,Buffalo Bills,47,17,482,0,New England Patriots
-547,WildCard,New England Patriots,17,47,305,2,Buffalo Bills
-548,WildCard,Tampa Bay Buccaneers,31,15,349,0,Philadelphia Eagles
-549,WildCard,Philadelphia Eagles,15,31,339,3,Tampa Bay Buccaneers
-550,WildCard,San Francisco 49ers,23,17,341,1,Dallas Cowboys
-551,WildCard,Dallas Cowboys,17,23,307,1,San Francisco 49ers
-552,WildCard,Kansas City Chiefs,42,21,478,2,Pittsburgh Steelers
-553,WildCard,Pittsburgh Steelers,21,42,257,1,Kansas City Chiefs
-554,WildCard,Los Angeles Rams,34,11,375,0,Arizona Cardinals
-555,WildCard,Arizona Cardinals,11,34,183,2,Los Angeles Rams
-556,Division,Cincinnati Bengals,19,16,345,1,Tennessee Titans
-557,Division,Tennessee Titans,16,19,353,3,Cincinnati Bengals
-558,Division,San Francisco 49ers,13,10,212,1,Green Bay Packers
-559,Division,Green Bay Packers,10,13,263,1,San Francisco 49ers
-560,Division,Los Angeles Rams,30,27,428,4,Tampa Bay Buccaneers
-561,Division,Tampa Bay Buccaneers,27,30,359,2,Los Angeles Rams
-562,Division,Kansas City Chiefs,42,36,552,0,Buffalo Bills
-563,Division,Buffalo Bills,36,42,422,0,Kansas City Chiefs
-564,ConfChamp,Cincinnati Bengals,27,24,359,1,Kansas City Chiefs
-565,ConfChamp,Kansas City Chiefs,24,27,375,2,Cincinnati Bengals
-566,ConfChamp,Los Angeles Rams,20,17,396,1,San Francisco 49ers
-567,ConfChamp,San Francisco 49ers,17,20,282,1,Los Angeles Rams
-568,SuperBowl,Los Angeles Rams,23,20,313,2,Cincinnati Bengals
-569,SuperBowl,Cincinnati Bengals,20,23,305,0,Los Angeles Rams
+,week,team,is_home_team,pf,pa,yards,turnovers,played
+0,1,Tampa Bay Buccaneers,True,31,29,431,4,Dallas Cowboys
+1,1,Dallas Cowboys,False,29,31,451,1,Tampa Bay Buccaneers
+2,1,Philadelphia Eagles,False,32,6,434,0,Atlanta Falcons
+3,1,Atlanta Falcons,True,6,32,260,0,Philadelphia Eagles
+4,1,Pittsburgh Steelers,False,23,16,252,0,Buffalo Bills
+5,1,Buffalo Bills,True,16,23,371,1,Pittsburgh Steelers
+6,1,Carolina Panthers,True,19,14,381,1,New York Jets
+7,1,New York Jets,False,14,19,252,1,Carolina Panthers
+8,1,Cincinnati Bengals,True,27,24,366,0,Minnesota Vikings
+9,1,Minnesota Vikings,False,24,27,403,1,Cincinnati Bengals
+10,1,Seattle Seahawks,False,28,16,381,1,Indianapolis Colts
+11,1,Indianapolis Colts,True,16,28,336,1,Seattle Seahawks
+12,1,Arizona Cardinals,False,38,13,416,1,Tennessee Titans
+13,1,Tennessee Titans,True,13,38,248,3,Arizona Cardinals
+14,1,San Francisco 49ers,False,41,33,442,2,Detroit Lions
+15,1,Detroit Lions,True,33,41,430,1,San Francisco 49ers
+16,1,Houston Texans,True,37,21,449,0,Jacksonville Jaguars
+17,1,Jacksonville Jaguars,False,21,37,395,3,Houston Texans
+18,1,Los Angeles Chargers,False,20,16,424,2,Washington Football Team
+19,1,Washington Football Team,True,16,20,259,1,Los Angeles Chargers
+20,1,Kansas City Chiefs,True,33,29,397,0,Cleveland Browns
+21,1,Cleveland Browns,False,29,33,457,2,Kansas City Chiefs
+22,1,Denver Broncos,False,27,13,420,1,New York Giants
+23,1,New York Giants,True,13,27,314,1,Denver Broncos
+24,1,New Orleans Saints,True,38,3,322,0,Green Bay Packers
+25,1,Green Bay Packers,False,3,38,229,3,New Orleans Saints
+26,1,Miami Dolphins,False,17,16,259,1,New England Patriots
+27,1,New England Patriots,True,16,17,393,2,Miami Dolphins
+28,1,Los Angeles Rams,True,34,14,386,0,Chicago Bears
+29,1,Chicago Bears,False,14,34,322,2,Los Angeles Rams
+30,1,Las Vegas Raiders,True,33,27,491,1,Baltimore Ravens
+31,1,Baltimore Ravens,False,27,33,406,2,Las Vegas Raiders
+32,2,Washington Football Team,True,30,29,407,1,New York Giants
+33,2,New York Giants,False,29,30,391,0,Washington Football Team
+34,2,Buffalo Bills,False,35,0,314,2,Miami Dolphins
+35,2,Miami Dolphins,True,0,35,216,3,Buffalo Bills
+36,2,Carolina Panthers,True,26,7,383,1,New Orleans Saints
+37,2,New Orleans Saints,False,7,26,128,2,Carolina Panthers
+38,2,Chicago Bears,True,20,17,206,1,Cincinnati Bengals
+39,2,Cincinnati Bengals,False,17,20,248,4,Chicago Bears
+40,2,Cleveland Browns,True,31,21,355,2,Houston Texans
+41,2,Houston Texans,False,21,31,302,2,Cleveland Browns
+42,2,Los Angeles Rams,False,27,24,371,2,Indianapolis Colts
+43,2,Indianapolis Colts,True,24,27,354,2,Los Angeles Rams
+44,2,Denver Broncos,False,23,13,398,0,Jacksonville Jaguars
+45,2,Jacksonville Jaguars,True,13,23,189,2,Denver Broncos
+46,2,New England Patriots,False,25,6,260,0,New York Jets
+47,2,New York Jets,True,6,25,336,4,New England Patriots
+48,2,San Francisco 49ers,False,17,11,306,0,Philadelphia Eagles
+49,2,Philadelphia Eagles,True,11,17,328,0,San Francisco 49ers
+50,2,Las Vegas Raiders,False,26,17,425,0,Pittsburgh Steelers
+51,2,Pittsburgh Steelers,True,17,26,331,1,Las Vegas Raiders
+52,2,Tampa Bay Buccaneers,True,48,25,341,1,Atlanta Falcons
+53,2,Atlanta Falcons,False,25,48,348,3,Tampa Bay Buccaneers
+54,2,Arizona Cardinals,True,34,33,474,2,Minnesota Vikings
+55,2,Minnesota Vikings,False,33,34,419,0,Arizona Cardinals
+56,2,Dallas Cowboys,False,20,17,419,1,Los Angeles Chargers
+57,2,Los Angeles Chargers,True,17,20,408,2,Dallas Cowboys
+58,2,Tennessee Titans,False,33,30,532,1,Seattle Seahawks
+59,2,Seattle Seahawks,True,30,33,397,0,Tennessee Titans
+60,2,Baltimore Ravens,True,36,35,481,2,Kansas City Chiefs
+61,2,Kansas City Chiefs,False,35,36,405,2,Baltimore Ravens
+62,2,Green Bay Packers,True,35,17,323,0,Detroit Lions
+63,2,Detroit Lions,False,17,35,344,2,Green Bay Packers
+64,3,Carolina Panthers,False,24,9,407,0,Houston Texans
+65,3,Houston Texans,True,9,24,193,0,Carolina Panthers
+66,3,Atlanta Falcons,False,17,14,296,1,New York Giants
+67,3,New York Giants,True,14,17,346,1,Atlanta Falcons
+68,3,Buffalo Bills,True,43,21,481,0,Washington Football Team
+69,3,Washington Football Team,False,21,43,290,3,Buffalo Bills
+70,3,Cleveland Browns,True,26,6,418,0,Chicago Bears
+71,3,Chicago Bears,False,6,26,47,0,Cleveland Browns
+72,3,Cincinnati Bengals,False,24,10,268,1,Pittsburgh Steelers
+73,3,Pittsburgh Steelers,True,10,24,342,2,Cincinnati Bengals
+74,3,Tennessee Titans,True,25,16,368,3,Indianapolis Colts
+75,3,Indianapolis Colts,False,16,25,265,0,Tennessee Titans
+76,3,Arizona Cardinals,False,31,19,407,1,Jacksonville Jaguars
+77,3,Jacksonville Jaguars,True,19,31,361,4,Arizona Cardinals
+78,3,Baltimore Ravens,False,19,17,387,1,Detroit Lions
+79,3,Detroit Lions,True,17,19,285,0,Baltimore Ravens
+80,3,Los Angeles Chargers,False,30,24,352,0,Kansas City Chiefs
+81,3,Kansas City Chiefs,True,24,30,437,4,Los Angeles Chargers
+82,3,New Orleans Saints,False,28,13,252,0,New England Patriots
+83,3,New England Patriots,True,13,28,300,3,New Orleans Saints
+84,3,Denver Broncos,True,26,0,343,1,New York Jets
+85,3,New York Jets,False,0,26,162,2,Denver Broncos
+86,3,Las Vegas Raiders,True,31,28,497,1,Miami Dolphins
+87,3,Miami Dolphins,False,28,31,330,0,Las Vegas Raiders
+88,3,Minnesota Vikings,True,30,17,453,0,Seattle Seahawks
+89,3,Seattle Seahawks,False,17,30,389,0,Minnesota Vikings
+90,3,Los Angeles Rams,True,34,24,407,0,Tampa Bay Buccaneers
+91,3,Tampa Bay Buccaneers,False,24,34,446,0,Los Angeles Rams
+92,3,Green Bay Packers,False,30,28,353,0,San Francisco 49ers
+93,3,San Francisco 49ers,True,28,30,298,2,Green Bay Packers
+94,3,Dallas Cowboys,True,41,21,380,1,Philadelphia Eagles
+95,3,Philadelphia Eagles,False,21,41,367,2,Dallas Cowboys
+96,4,Cincinnati Bengals,True,24,21,420,0,Jacksonville Jaguars
+97,4,Jacksonville Jaguars,False,21,24,341,0,Cincinnati Bengals
+98,4,Washington Football Team,False,34,30,412,0,Atlanta Falcons
+99,4,Atlanta Falcons,True,30,34,374,0,Washington Football Team
+100,4,Buffalo Bills,True,40,0,450,1,Houston Texans
+101,4,Houston Texans,False,0,40,109,5,Buffalo Bills
+102,4,Dallas Cowboys,True,36,28,433,0,Carolina Panthers
+103,4,Carolina Panthers,False,28,36,379,2,Dallas Cowboys
+104,4,Chicago Bears,True,24,14,373,1,Detroit Lions
+105,4,Detroit Lions,False,14,24,351,2,Chicago Bears
+106,4,Cleveland Browns,False,14,7,327,0,Minnesota Vikings
+107,4,Minnesota Vikings,True,7,14,255,1,Cleveland Browns
+108,4,Indianapolis Colts,False,27,17,349,1,Miami Dolphins
+109,4,Miami Dolphins,True,17,27,203,2,Indianapolis Colts
+110,4,Kansas City Chiefs,False,42,30,471,1,Philadelphia Eagles
+111,4,Philadelphia Eagles,True,30,42,461,0,Kansas City Chiefs
+112,4,New York Giants,False,27,21,485,1,New Orleans Saints
+113,4,New Orleans Saints,True,21,27,405,1,New York Giants
+114,4,New York Jets,True,27,24,355,1,Tennessee Titans
+115,4,Tennessee Titans,False,24,27,430,0,New York Jets
+116,4,Arizona Cardinals,False,37,20,465,0,Los Angeles Rams
+117,4,Los Angeles Rams,True,20,37,401,2,Arizona Cardinals
+118,4,Seattle Seahawks,False,28,21,234,0,San Francisco 49ers
+119,4,San Francisco 49ers,True,21,28,457,2,Seattle Seahawks
+120,4,Baltimore Ravens,False,23,7,406,0,Denver Broncos
+121,4,Denver Broncos,True,7,23,254,1,Baltimore Ravens
+122,4,Green Bay Packers,True,27,17,367,1,Pittsburgh Steelers
+123,4,Pittsburgh Steelers,False,17,27,282,2,Green Bay Packers
+124,4,Tampa Bay Buccaneers,False,19,17,381,0,New England Patriots
+125,4,New England Patriots,True,17,19,294,2,Tampa Bay Buccaneers
+126,4,Los Angeles Chargers,True,28,14,380,0,Las Vegas Raiders
+127,4,Las Vegas Raiders,False,14,28,213,1,Los Angeles Chargers
+128,5,Los Angeles Rams,False,26,17,476,1,Seattle Seahawks
+129,5,Seattle Seahawks,True,17,26,354,2,Los Angeles Rams
+130,5,Atlanta Falcons,True,27,20,450,2,New York Jets
+131,5,New York Jets,False,20,27,230,1,Atlanta Falcons
+132,5,Philadelphia Eagles,False,21,18,273,2,Carolina Panthers
+133,5,Carolina Panthers,True,18,21,267,3,Philadelphia Eagles
+134,5,Green Bay Packers,False,25,22,466,1,Cincinnati Bengals
+135,5,Cincinnati Bengals,True,22,25,367,2,Green Bay Packers
+136,5,Pittsburgh Steelers,True,27,19,391,1,Denver Broncos
+137,5,Denver Broncos,False,19,27,374,1,Pittsburgh Steelers
+138,5,Minnesota Vikings,True,19,17,384,2,Detroit Lions
+139,5,Detroit Lions,False,17,19,288,2,Minnesota Vikings
+140,5,New England Patriots,False,25,22,352,2,Houston Texans
+141,5,Houston Texans,True,22,25,360,1,New England Patriots
+142,5,Tennessee Titans,False,37,19,368,0,Jacksonville Jaguars
+143,5,Jacksonville Jaguars,True,19,37,454,2,Tennessee Titans
+144,5,Tampa Bay Buccaneers,True,45,17,558,0,Miami Dolphins
+145,5,Miami Dolphins,False,17,45,301,2,Tampa Bay Buccaneers
+146,5,New Orleans Saints,False,33,22,369,2,Washington Football Team
+147,5,Washington Football Team,True,22,33,373,2,New Orleans Saints
+148,5,Chicago Bears,False,20,9,252,0,Las Vegas Raiders
+149,5,Las Vegas Raiders,True,9,20,259,1,Chicago Bears
+150,5,Los Angeles Chargers,True,47,42,493,1,Cleveland Browns
+151,5,Cleveland Browns,False,42,47,531,0,Los Angeles Chargers
+152,5,Arizona Cardinals,True,17,10,304,1,San Francisco 49ers
+153,5,San Francisco 49ers,False,10,17,338,1,Arizona Cardinals
+154,5,Dallas Cowboys,True,44,20,515,2,New York Giants
+155,5,New York Giants,False,20,44,367,2,Dallas Cowboys
+156,5,Buffalo Bills,False,38,20,436,0,Kansas City Chiefs
+157,5,Kansas City Chiefs,True,20,38,392,4,Buffalo Bills
+158,5,Baltimore Ravens,True,31,25,523,1,Indianapolis Colts
+159,5,Indianapolis Colts,False,25,31,513,1,Baltimore Ravens
+160,6,Tampa Bay Buccaneers,False,28,22,399,1,Philadelphia Eagles
+161,6,Philadelphia Eagles,True,22,28,213,1,Tampa Bay Buccaneers
+162,6,Jacksonville Jaguars,True,23,20,396,1,Miami Dolphins
+163,6,Miami Dolphins,False,20,23,431,1,Jacksonville Jaguars
+164,6,Minnesota Vikings,False,34,28,571,1,Carolina Panthers
+165,6,Carolina Panthers,True,28,34,306,3,Minnesota Vikings
+166,6,Green Bay Packers,False,24,14,323,0,Chicago Bears
+167,6,Chicago Bears,True,14,24,277,1,Green Bay Packers
+168,6,Cincinnati Bengals,False,34,11,398,1,Detroit Lions
+169,6,Detroit Lions,True,11,34,228,1,Cincinnati Bengals
+170,6,Indianapolis Colts,True,31,3,388,0,Houston Texans
+171,6,Houston Texans,False,3,31,353,3,Indianapolis Colts
+172,6,Kansas City Chiefs,False,31,13,499,3,Washington Football Team
+173,6,Washington Football Team,True,13,31,276,2,Kansas City Chiefs
+174,6,Los Angeles Rams,False,38,11,365,2,New York Giants
+175,6,New York Giants,True,11,38,261,4,Los Angeles Rams
+176,6,Baltimore Ravens,True,34,6,327,2,Los Angeles Chargers
+177,6,Los Angeles Chargers,False,6,34,208,1,Baltimore Ravens
+178,6,Arizona Cardinals,False,37,14,352,0,Cleveland Browns
+179,6,Cleveland Browns,True,14,37,290,3,Arizona Cardinals
+180,6,Dallas Cowboys,False,35,29,567,2,New England Patriots
+181,6,New England Patriots,True,29,35,335,2,Dallas Cowboys
+182,6,Las Vegas Raiders,False,34,24,426,0,Denver Broncos
+183,6,Denver Broncos,True,24,34,421,4,Las Vegas Raiders
+184,6,Pittsburgh Steelers,True,23,20,345,1,Seattle Seahawks
+185,6,Seattle Seahawks,False,20,23,309,1,Pittsburgh Steelers
+186,6,Tennessee Titans,True,34,31,362,1,Buffalo Bills
+187,6,Buffalo Bills,False,31,34,417,1,Tennessee Titans
+188,7,Cleveland Browns,True,17,14,376,0,Denver Broncos
+189,7,Denver Broncos,False,14,17,223,1,Cleveland Browns
+190,7,Atlanta Falcons,False,30,28,397,2,Miami Dolphins
+191,7,Miami Dolphins,True,28,30,413,2,Atlanta Falcons
+192,7,New York Giants,True,25,3,302,0,Carolina Panthers
+193,7,Carolina Panthers,False,3,25,173,1,New York Giants
+194,7,Cincinnati Bengals,False,41,17,520,1,Baltimore Ravens
+195,7,Baltimore Ravens,True,17,41,393,0,Cincinnati Bengals
+196,7,Green Bay Packers,True,24,10,304,1,Washington Football Team
+197,7,Washington Football Team,False,10,24,430,2,Green Bay Packers
+198,7,Tennessee Titans,True,27,3,369,1,Kansas City Chiefs
+199,7,Kansas City Chiefs,False,3,27,334,3,Tennessee Titans
+200,7,New England Patriots,True,54,13,551,0,New York Jets
+201,7,New York Jets,False,13,54,299,3,New England Patriots
+202,7,Los Angeles Rams,True,28,19,374,0,Detroit Lions
+203,7,Detroit Lions,False,19,28,415,2,Los Angeles Rams
+204,7,Las Vegas Raiders,True,33,22,442,1,Philadelphia Eagles
+205,7,Philadelphia Eagles,False,22,33,358,2,Las Vegas Raiders
+206,7,Tampa Bay Buccaneers,True,38,3,408,1,Chicago Bears
+207,7,Chicago Bears,False,3,38,311,5,Tampa Bay Buccaneers
+208,7,Arizona Cardinals,True,31,5,397,1,Houston Texans
+209,7,Houston Texans,False,5,31,160,1,Arizona Cardinals
+210,7,Indianapolis Colts,False,30,18,295,2,San Francisco 49ers
+211,7,San Francisco 49ers,True,18,30,280,4,Indianapolis Colts
+212,7,New Orleans Saints,False,13,10,304,1,Seattle Seahawks
+213,7,Seattle Seahawks,True,10,13,219,0,New Orleans Saints
+214,8,Green Bay Packers,False,24,21,335,0,Arizona Cardinals
+215,8,Arizona Cardinals,True,21,24,334,3,Green Bay Packers
+216,8,Carolina Panthers,False,19,13,332,1,Atlanta Falcons
+217,8,Atlanta Falcons,True,13,19,213,2,Carolina Panthers
+218,8,Buffalo Bills,True,26,11,351,0,Miami Dolphins
+219,8,Miami Dolphins,False,11,26,262,2,Buffalo Bills
+220,8,San Francisco 49ers,False,33,22,467,0,Chicago Bears
+221,8,Chicago Bears,True,22,33,324,1,San Francisco 49ers
+222,8,New York Jets,True,34,31,511,3,Cincinnati Bengals
+223,8,Cincinnati Bengals,False,31,34,318,1,New York Jets
+224,8,Pittsburgh Steelers,False,15,10,370,0,Cleveland Browns
+225,8,Cleveland Browns,True,10,15,306,1,Pittsburgh Steelers
+226,8,Tennessee Titans,False,34,31,340,2,Indianapolis Colts
+227,8,Indianapolis Colts,True,31,34,307,3,Tennessee Titans
+228,8,Philadelphia Eagles,False,44,6,350,0,Detroit Lions
+229,8,Detroit Lions,True,6,44,228,1,Philadelphia Eagles
+230,8,Los Angeles Rams,False,38,22,467,0,Houston Texans
+231,8,Houston Texans,True,22,38,323,1,Los Angeles Rams
+232,8,Seattle Seahawks,True,31,7,229,0,Jacksonville Jaguars
+233,8,Jacksonville Jaguars,False,7,31,309,1,Seattle Seahawks
+234,8,New England Patriots,False,27,24,352,1,Los Angeles Chargers
+235,8,Los Angeles Chargers,True,24,27,369,2,New England Patriots
+236,8,New Orleans Saints,True,36,27,361,0,Tampa Bay Buccaneers
+237,8,Tampa Bay Buccaneers,False,27,36,421,3,New Orleans Saints
+238,8,Denver Broncos,True,17,10,273,1,Washington Football Team
+239,8,Washington Football Team,False,10,17,342,2,Denver Broncos
+240,8,Dallas Cowboys,False,20,16,419,2,Minnesota Vikings
+241,8,Minnesota Vikings,True,16,20,278,0,Dallas Cowboys
+242,8,Kansas City Chiefs,True,20,17,368,2,New York Giants
+243,8,New York Giants,False,17,20,300,1,Kansas City Chiefs
+244,9,Indianapolis Colts,True,45,30,532,0,New York Jets
+245,9,New York Jets,False,30,45,486,2,Indianapolis Colts
+246,9,Atlanta Falcons,False,27,25,366,0,New Orleans Saints
+247,9,New Orleans Saints,True,25,27,376,1,Atlanta Falcons
+248,9,Jacksonville Jaguars,True,9,6,218,1,Buffalo Bills
+249,9,Buffalo Bills,False,6,9,301,3,Jacksonville Jaguars
+250,9,Denver Broncos,False,30,16,407,0,Dallas Cowboys
+251,9,Dallas Cowboys,True,16,30,290,2,Denver Broncos
+252,9,Baltimore Ravens,True,34,31,500,2,Minnesota Vikings
+253,9,Minnesota Vikings,False,31,34,318,0,Baltimore Ravens
+254,9,New England Patriots,False,24,6,273,2,Carolina Panthers
+255,9,Carolina Panthers,True,6,24,240,3,New England Patriots
+256,9,Cleveland Browns,False,41,16,361,0,Cincinnati Bengals
+257,9,Cincinnati Bengals,True,16,41,348,3,Cleveland Browns
+258,9,Miami Dolphins,True,17,9,262,5,Houston Texans
+259,9,Houston Texans,False,9,17,272,4,Miami Dolphins
+260,9,New York Giants,True,23,16,247,1,Las Vegas Raiders
+261,9,Las Vegas Raiders,False,16,23,403,3,New York Giants
+262,9,Los Angeles Chargers,False,27,24,445,0,Philadelphia Eagles
+263,9,Philadelphia Eagles,True,24,27,331,0,Los Angeles Chargers
+264,9,Arizona Cardinals,False,31,17,437,0,San Francisco 49ers
+265,9,San Francisco 49ers,True,17,31,337,3,Arizona Cardinals
+266,9,Kansas City Chiefs,True,13,7,237,0,Green Bay Packers
+267,9,Green Bay Packers,False,7,13,301,2,Kansas City Chiefs
+268,9,Tennessee Titans,False,28,16,194,1,Los Angeles Rams
+269,9,Los Angeles Rams,True,16,28,347,2,Tennessee Titans
+270,9,Pittsburgh Steelers,True,29,27,280,1,Chicago Bears
+271,9,Chicago Bears,False,27,29,414,2,Pittsburgh Steelers
+272,10,Miami Dolphins,True,22,10,350,0,Baltimore Ravens
+273,10,Baltimore Ravens,False,10,22,304,2,Miami Dolphins
+274,10,Dallas Cowboys,True,43,3,431,1,Atlanta Falcons
+275,10,Atlanta Falcons,False,3,43,214,3,Dallas Cowboys
+276,10,Buffalo Bills,False,45,17,489,2,New York Jets
+277,10,New York Jets,True,17,45,366,5,Buffalo Bills
+278,10,Pittsburgh Steelers,True,16,16,387,3,Detroit Lions
+279,10,Detroit Lions,False,16,16,306,0,Pittsburgh Steelers
+280,10,Tennessee Titans,True,23,21,264,0,New Orleans Saints
+281,10,New Orleans Saints,False,21,23,373,1,Tennessee Titans
+282,10,Washington Football Team,True,29,19,320,1,Tampa Bay Buccaneers
+283,10,Tampa Bay Buccaneers,False,19,29,273,2,Washington Football Team
+284,10,New England Patriots,True,45,7,452,0,Cleveland Browns
+285,10,Cleveland Browns,False,7,45,217,1,New England Patriots
+286,10,Indianapolis Colts,True,23,17,295,0,Jacksonville Jaguars
+287,10,Jacksonville Jaguars,False,17,23,331,1,Indianapolis Colts
+288,10,Minnesota Vikings,False,27,20,381,1,Los Angeles Chargers
+289,10,Los Angeles Chargers,True,20,27,253,1,Minnesota Vikings
+290,10,Carolina Panthers,False,34,10,341,2,Arizona Cardinals
+291,10,Arizona Cardinals,True,10,34,169,2,Carolina Panthers
+292,10,Philadelphia Eagles,False,30,13,386,1,Denver Broncos
+293,10,Denver Broncos,True,13,30,308,1,Philadelphia Eagles
+294,10,Green Bay Packers,True,17,0,393,1,Seattle Seahawks
+295,10,Seattle Seahawks,False,0,17,208,2,Green Bay Packers
+296,10,Kansas City Chiefs,False,41,14,516,1,Las Vegas Raiders
+297,10,Las Vegas Raiders,True,14,41,299,2,Kansas City Chiefs
+298,10,San Francisco 49ers,True,31,10,335,0,Los Angeles Rams
+299,10,Los Angeles Rams,False,10,31,278,2,San Francisco 49ers
+300,11,New England Patriots,False,25,0,308,1,Atlanta Falcons
+301,11,Atlanta Falcons,True,0,25,165,4,New England Patriots
+302,11,Indianapolis Colts,False,41,15,370,0,Buffalo Bills
+303,11,Buffalo Bills,True,15,41,311,4,Indianapolis Colts
+304,11,Baltimore Ravens,False,16,13,299,1,Chicago Bears
+305,11,Chicago Bears,True,13,16,353,1,Baltimore Ravens
+306,11,Houston Texans,False,22,13,190,0,Tennessee Titans
+307,11,Tennessee Titans,True,13,22,420,5,Houston Texans
+308,11,San Francisco 49ers,False,30,10,333,0,Jacksonville Jaguars
+309,11,Jacksonville Jaguars,True,10,30,200,2,San Francisco 49ers
+310,11,Philadelphia Eagles,True,40,29,380,1,New Orleans Saints
+311,11,New Orleans Saints,False,29,40,323,3,Philadelphia Eagles
+312,11,Washington Football Team,False,27,21,369,1,Carolina Panthers
+313,11,Carolina Panthers,True,21,27,297,0,Washington Football Team
+314,11,Cleveland Browns,True,13,10,349,2,Detroit Lions
+315,11,Detroit Lions,False,10,13,245,2,Cleveland Browns
+316,11,Minnesota Vikings,True,34,31,408,0,Green Bay Packers
+317,11,Green Bay Packers,False,31,34,467,0,Minnesota Vikings
+318,11,Miami Dolphins,False,24,17,388,1,New York Jets
+319,11,New York Jets,True,17,24,380,1,Miami Dolphins
+320,11,Cincinnati Bengals,False,32,13,288,1,Las Vegas Raiders
+321,11,Las Vegas Raiders,True,13,32,278,2,Cincinnati Bengals
+322,11,Kansas City Chiefs,True,19,9,370,2,Dallas Cowboys
+323,11,Dallas Cowboys,False,9,19,276,3,Kansas City Chiefs
+324,11,Arizona Cardinals,False,23,13,413,0,Seattle Seahawks
+325,11,Seattle Seahawks,True,13,23,266,0,Arizona Cardinals
+326,11,Los Angeles Chargers,True,41,37,533,1,Pittsburgh Steelers
+327,11,Pittsburgh Steelers,False,37,41,300,0,Los Angeles Chargers
+328,11,Tampa Bay Buccaneers,True,30,10,402,1,New York Giants
+329,11,New York Giants,False,10,30,215,3,Tampa Bay Buccaneers
+330,12,Chicago Bears,False,16,14,378,1,Detroit Lions
+331,12,Detroit Lions,True,14,16,239,1,Chicago Bears
+332,12,Las Vegas Raiders,False,36,33,509,0,Dallas Cowboys
+333,12,Dallas Cowboys,True,33,36,437,0,Las Vegas Raiders
+334,12,Buffalo Bills,False,31,6,361,2,New Orleans Saints
+335,12,New Orleans Saints,True,6,31,190,1,Buffalo Bills
+336,12,Atlanta Falcons,False,21,14,332,1,Jacksonville Jaguars
+337,12,Jacksonville Jaguars,True,14,21,357,2,Atlanta Falcons
+338,12,Cincinnati Bengals,True,41,10,370,1,Pittsburgh Steelers
+339,12,Pittsburgh Steelers,False,10,41,301,3,Cincinnati Bengals
+340,12,New York Jets,False,21,14,266,1,Houston Texans
+341,12,Houston Texans,True,14,21,202,1,New York Jets
+342,12,New York Giants,True,13,7,264,0,Philadelphia Eagles
+343,12,Philadelphia Eagles,False,7,13,332,4,New York Giants
+344,12,Miami Dolphins,True,33,10,315,1,Carolina Panthers
+345,12,Carolina Panthers,False,10,33,198,3,Miami Dolphins
+346,12,Tampa Bay Buccaneers,False,38,31,359,2,Indianapolis Colts
+347,12,Indianapolis Colts,True,31,38,392,5,Tampa Bay Buccaneers
+348,12,New England Patriots,True,36,13,394,0,Tennessee Titans
+349,12,Tennessee Titans,False,13,36,355,4,New England Patriots
+350,12,Denver Broncos,True,28,13,302,1,Los Angeles Chargers
+351,12,Los Angeles Chargers,False,13,28,357,2,Denver Broncos
+352,12,San Francisco 49ers,True,34,26,423,1,Minnesota Vikings
+353,12,Minnesota Vikings,False,26,34,323,2,San Francisco 49ers
+354,12,Green Bay Packers,True,36,28,399,1,Los Angeles Rams
+355,12,Los Angeles Rams,False,28,36,353,3,Green Bay Packers
+356,12,Baltimore Ravens,True,16,10,303,4,Cleveland Browns
+357,12,Cleveland Browns,False,10,16,262,2,Baltimore Ravens
+358,12,Washington Football Team,True,17,15,371,1,Seattle Seahawks
+359,12,Seattle Seahawks,False,15,17,267,1,Washington Football Team
+360,13,Dallas Cowboys,False,27,17,377,1,New Orleans Saints
+361,13,New Orleans Saints,True,17,27,405,4,Dallas Cowboys
+362,13,Tampa Bay Buccaneers,False,30,17,425,1,Atlanta Falcons
+363,13,Atlanta Falcons,True,17,30,380,1,Tampa Bay Buccaneers
+364,13,Arizona Cardinals,False,33,22,257,0,Chicago Bears
+365,13,Chicago Bears,True,22,33,329,4,Arizona Cardinals
+366,13,Los Angeles Chargers,False,41,22,363,3,Cincinnati Bengals
+367,13,Cincinnati Bengals,True,22,41,356,4,Los Angeles Chargers
+368,13,Detroit Lions,True,29,27,372,2,Minnesota Vikings
+369,13,Minnesota Vikings,False,27,29,426,1,Detroit Lions
+370,13,Philadelphia Eagles,False,33,18,418,0,New York Jets
+371,13,New York Jets,True,18,33,281,1,Philadelphia Eagles
+372,13,Indianapolis Colts,False,31,0,389,1,Houston Texans
+373,13,Houston Texans,True,0,31,141,2,Indianapolis Colts
+374,13,Miami Dolphins,True,20,9,297,0,New York Giants
+375,13,New York Giants,False,9,20,250,1,Miami Dolphins
+376,13,Seattle Seahawks,True,30,23,327,3,San Francisco 49ers
+377,13,San Francisco 49ers,False,23,30,365,3,Seattle Seahawks
+378,13,Washington Football Team,False,17,15,298,1,Las Vegas Raiders
+379,13,Las Vegas Raiders,True,15,17,310,0,Washington Football Team
+380,13,Los Angeles Rams,True,37,7,418,0,Jacksonville Jaguars
+381,13,Jacksonville Jaguars,False,7,37,197,2,Los Angeles Rams
+382,13,Pittsburgh Steelers,True,20,19,321,0,Baltimore Ravens
+383,13,Baltimore Ravens,False,19,20,326,1,Pittsburgh Steelers
+384,13,Kansas City Chiefs,True,22,9,267,1,Denver Broncos
+385,13,Denver Broncos,False,9,22,404,3,Kansas City Chiefs
+386,13,New England Patriots,False,14,10,241,1,Buffalo Bills
+387,13,Buffalo Bills,True,10,14,230,1,New England Patriots
+388,14,Minnesota Vikings,True,36,28,458,2,Pittsburgh Steelers
+389,14,Pittsburgh Steelers,False,28,36,375,1,Minnesota Vikings
+390,14,Atlanta Falcons,False,29,21,318,1,Carolina Panthers
+391,14,Carolina Panthers,True,21,29,334,3,Atlanta Falcons
+392,14,San Francisco 49ers,False,26,23,355,0,Cincinnati Bengals
+393,14,Cincinnati Bengals,True,23,26,397,2,San Francisco 49ers
+394,14,Cleveland Browns,True,24,22,290,1,Baltimore Ravens
+395,14,Baltimore Ravens,False,22,24,389,2,Cleveland Browns
+396,14,Dallas Cowboys,False,27,20,323,2,Washington Football Team
+397,14,Washington Football Team,True,20,27,224,4,Dallas Cowboys
+398,14,Seattle Seahawks,False,33,13,453,0,Houston Texans
+399,14,Houston Texans,True,13,33,380,0,Seattle Seahawks
+400,14,Tennessee Titans,True,20,0,263,0,Jacksonville Jaguars
+401,14,Jacksonville Jaguars,False,0,20,192,4,Tennessee Titans
+402,14,Kansas City Chiefs,True,48,9,372,0,Las Vegas Raiders
+403,14,Las Vegas Raiders,False,9,48,290,5,Kansas City Chiefs
+404,14,New Orleans Saints,False,30,9,344,0,New York Jets
+405,14,New York Jets,True,9,30,256,0,New Orleans Saints
+406,14,Denver Broncos,True,38,10,358,0,Detroit Lions
+407,14,Detroit Lions,False,10,38,316,2,Denver Broncos
+408,14,Los Angeles Chargers,True,37,21,423,0,New York Giants
+409,14,New York Giants,False,21,37,316,2,Los Angeles Chargers
+410,14,Tampa Bay Buccaneers,True,33,27,488,0,Buffalo Bills
+411,14,Buffalo Bills,False,27,33,466,1,Tampa Bay Buccaneers
+412,14,Green Bay Packers,True,45,30,439,0,Chicago Bears
+413,14,Chicago Bears,False,30,45,347,3,Green Bay Packers
+414,14,Los Angeles Rams,False,30,23,356,0,Arizona Cardinals
+415,14,Arizona Cardinals,True,23,30,447,2,Los Angeles Rams
+416,15,Kansas City Chiefs,False,34,28,496,2,Los Angeles Chargers
+417,15,Los Angeles Chargers,True,28,34,428,2,Kansas City Chiefs
+418,15,Indianapolis Colts,True,27,17,275,1,New England Patriots
+419,15,New England Patriots,False,17,27,365,2,Indianapolis Colts
+420,15,Buffalo Bills,True,31,14,312,1,Carolina Panthers
+421,15,Carolina Panthers,False,14,31,275,1,Buffalo Bills
+422,15,Detroit Lions,True,30,12,338,1,Arizona Cardinals
+423,15,Arizona Cardinals,False,12,30,398,1,Detroit Lions
+424,15,Dallas Cowboys,False,21,6,328,1,New York Giants
+425,15,New York Giants,True,6,21,302,4,Dallas Cowboys
+426,15,Green Bay Packers,False,31,30,346,0,Baltimore Ravens
+427,15,Baltimore Ravens,True,30,31,354,0,Green Bay Packers
+428,15,Houston Texans,False,30,16,281,1,Jacksonville Jaguars
+429,15,Jacksonville Jaguars,True,16,30,296,0,Houston Texans
+430,15,Miami Dolphins,True,31,24,379,3,New York Jets
+431,15,New York Jets,False,24,31,228,1,Miami Dolphins
+432,15,Pittsburgh Steelers,True,19,13,168,0,Tennessee Titans
+433,15,Tennessee Titans,False,13,19,318,4,Pittsburgh Steelers
+434,15,San Francisco 49ers,True,31,13,397,1,Atlanta Falcons
+435,15,Atlanta Falcons,False,13,31,275,1,San Francisco 49ers
+436,15,Cincinnati Bengals,False,15,10,249,0,Denver Broncos
+437,15,Denver Broncos,True,10,15,292,1,Cincinnati Bengals
+438,15,New Orleans Saints,False,9,0,212,0,Tampa Bay Buccaneers
+439,15,Tampa Bay Buccaneers,True,0,9,302,2,New Orleans Saints
+440,15,Las Vegas Raiders,False,16,14,328,2,Cleveland Browns
+441,15,Cleveland Browns,True,14,16,236,0,Las Vegas Raiders
+442,15,Minnesota Vikings,False,17,9,193,1,Chicago Bears
+443,15,Chicago Bears,True,9,17,370,3,Minnesota Vikings
+444,15,Philadelphia Eagles,True,27,17,519,2,Washington Football Team
+445,15,Washington Football Team,False,17,27,237,0,Philadelphia Eagles
+446,15,Los Angeles Rams,True,20,10,332,1,Seattle Seahawks
+447,15,Seattle Seahawks,False,10,20,214,1,Los Angeles Rams
+448,16,Tennessee Titans,True,20,17,278,0,San Francisco 49ers
+449,16,San Francisco 49ers,False,17,20,389,2,Tennessee Titans
+450,16,Green Bay Packers,True,24,22,311,0,Cleveland Browns
+451,16,Cleveland Browns,False,22,24,408,4,Green Bay Packers
+452,16,Indianapolis Colts,False,22,16,346,0,Arizona Cardinals
+453,16,Arizona Cardinals,True,16,22,378,0,Indianapolis Colts
+454,16,Atlanta Falcons,True,20,16,254,1,Detroit Lions
+455,16,Detroit Lions,False,16,20,338,1,Atlanta Falcons
+456,16,Buffalo Bills,False,33,21,428,0,New England Patriots
+457,16,New England Patriots,True,21,33,288,2,Buffalo Bills
+458,16,Tampa Bay Buccaneers,False,32,6,391,0,Carolina Panthers
+459,16,Carolina Panthers,True,6,32,273,1,Tampa Bay Buccaneers
+460,16,Cincinnati Bengals,True,41,21,575,0,Baltimore Ravens
+461,16,Baltimore Ravens,False,21,41,334,1,Cincinnati Bengals
+462,16,Houston Texans,True,41,29,437,0,Los Angeles Chargers
+463,16,Los Angeles Chargers,False,29,41,417,3,Houston Texans
+464,16,New York Jets,True,26,21,373,0,Jacksonville Jaguars
+465,16,Jacksonville Jaguars,False,21,26,384,1,New York Jets
+466,16,Los Angeles Rams,False,30,23,356,3,Minnesota Vikings
+467,16,Minnesota Vikings,True,23,30,361,1,Los Angeles Rams
+468,16,Philadelphia Eagles,True,34,10,324,0,New York Giants
+469,16,New York Giants,False,10,34,192,2,Philadelphia Eagles
+470,16,Chicago Bears,False,25,24,317,0,Seattle Seahawks
+471,16,Seattle Seahawks,True,24,25,331,0,Chicago Bears
+472,16,Las Vegas Raiders,True,17,13,342,3,Denver Broncos
+473,16,Denver Broncos,False,13,17,158,0,Las Vegas Raiders
+474,16,Kansas City Chiefs,True,36,10,381,0,Pittsburgh Steelers
+475,16,Pittsburgh Steelers,False,10,36,303,3,Kansas City Chiefs
+476,16,Dallas Cowboys,True,56,14,497,0,Washington Football Team
+477,16,Washington Football Team,False,14,56,257,2,Dallas Cowboys
+478,16,Miami Dolphins,False,20,3,259,1,New Orleans Saints
+479,16,New Orleans Saints,True,3,20,164,2,Miami Dolphins
+480,17,Buffalo Bills,True,29,15,351,3,Atlanta Falcons
+481,17,Atlanta Falcons,False,15,29,265,1,Buffalo Bills
+482,17,New Orleans Saints,True,18,10,280,0,Carolina Panthers
+483,17,Carolina Panthers,False,10,18,178,2,New Orleans Saints
+484,17,Chicago Bears,True,29,3,249,2,New York Giants
+485,17,New York Giants,False,3,29,155,4,Chicago Bears
+486,17,Cincinnati Bengals,True,34,31,475,0,Kansas City Chiefs
+487,17,Kansas City Chiefs,False,31,34,414,0,Cincinnati Bengals
+488,17,Las Vegas Raiders,False,23,20,326,2,Indianapolis Colts
+489,17,Indianapolis Colts,True,20,23,262,0,Las Vegas Raiders
+490,17,Arizona Cardinals,False,25,22,399,0,Dallas Cowboys
+491,17,Dallas Cowboys,True,22,25,301,1,Arizona Cardinals
+492,17,New England Patriots,True,50,10,471,0,Jacksonville Jaguars
+493,17,Jacksonville Jaguars,False,10,50,253,3,New England Patriots
+494,17,Tennessee Titans,True,34,3,308,0,Miami Dolphins
+495,17,Miami Dolphins,False,3,34,256,2,Tennessee Titans
+496,17,Tampa Bay Buccaneers,False,28,24,467,1,New York Jets
+497,17,New York Jets,True,24,28,374,1,Tampa Bay Buccaneers
+498,17,Philadelphia Eagles,False,20,16,330,0,Washington Football Team
+499,17,Washington Football Team,True,16,20,312,1,Philadelphia Eagles
+500,17,Los Angeles Chargers,True,34,13,341,0,Denver Broncos
+501,17,Denver Broncos,False,13,34,319,1,Los Angeles Chargers
+502,17,San Francisco 49ers,True,23,7,416,1,Houston Texans
+503,17,Houston Texans,False,7,23,222,1,San Francisco 49ers
+504,17,Seattle Seahawks,True,51,29,497,0,Detroit Lions
+505,17,Detroit Lions,False,29,51,357,3,Seattle Seahawks
+506,17,Los Angeles Rams,False,20,19,373,3,Baltimore Ravens
+507,17,Baltimore Ravens,True,19,20,327,2,Los Angeles Rams
+508,17,Green Bay Packers,True,37,10,481,0,Minnesota Vikings
+509,17,Minnesota Vikings,False,10,37,206,0,Green Bay Packers
+510,17,Pittsburgh Steelers,True,26,14,299,1,Cleveland Browns
+511,17,Cleveland Browns,False,14,26,232,2,Pittsburgh Steelers
+512,18,Kansas City Chiefs,False,28,24,390,0,Denver Broncos
+513,18,Denver Broncos,True,24,28,364,1,Kansas City Chiefs
+514,18,Dallas Cowboys,False,51,26,475,0,Philadelphia Eagles
+515,18,Philadelphia Eagles,True,26,51,315,1,Dallas Cowboys
+516,18,New Orleans Saints,False,30,20,369,0,Atlanta Falcons
+517,18,Atlanta Falcons,True,20,30,257,3,New Orleans Saints
+518,18,Buffalo Bills,True,27,10,424,0,New York Jets
+519,18,New York Jets,False,10,27,53,0,Buffalo Bills
+520,18,Tampa Bay Buccaneers,True,41,17,409,0,Carolina Panthers
+521,18,Carolina Panthers,False,17,41,317,2,Tampa Bay Buccaneers
+522,18,Minnesota Vikings,True,31,17,331,0,Chicago Bears
+523,18,Chicago Bears,False,17,31,356,2,Minnesota Vikings
+524,18,Cleveland Browns,True,21,16,376,2,Cincinnati Bengals
+525,18,Cincinnati Bengals,False,16,21,182,0,Cleveland Browns
+526,18,Jacksonville Jaguars,True,26,11,318,0,Indianapolis Colts
+527,18,Indianapolis Colts,False,11,26,233,2,Jacksonville Jaguars
+528,18,Detroit Lions,True,37,30,404,0,Green Bay Packers
+529,18,Green Bay Packers,False,30,37,378,3,Detroit Lions
+530,18,Tennessee Titans,False,28,25,405,0,Houston Texans
+531,18,Houston Texans,True,25,28,353,0,Tennessee Titans
+532,18,Miami Dolphins,True,33,24,298,0,New England Patriots
+533,18,New England Patriots,False,24,33,379,3,Miami Dolphins
+534,18,Washington Football Team,False,22,7,325,0,New York Giants
+535,18,New York Giants,True,7,22,177,3,Washington Football Team
+536,18,Pittsburgh Steelers,False,16,13,314,1,Baltimore Ravens
+537,18,Baltimore Ravens,True,13,16,381,3,Pittsburgh Steelers
+538,18,Seattle Seahawks,False,38,30,431,2,Arizona Cardinals
+539,18,Arizona Cardinals,True,30,38,305,1,Seattle Seahawks
+540,18,San Francisco 49ers,False,27,24,449,2,Los Angeles Rams
+541,18,Los Angeles Rams,True,24,27,265,2,San Francisco 49ers
+542,18,Las Vegas Raiders,True,35,32,346,0,Los Angeles Chargers
+543,18,Los Angeles Chargers,False,32,35,440,2,Las Vegas Raiders
+544,WildCard,Cincinnati Bengals,True,26,19,308,0,Las Vegas Raiders
+545,WildCard,Las Vegas Raiders,False,19,26,385,2,Cincinnati Bengals
+546,WildCard,Buffalo Bills,True,47,17,482,0,New England Patriots
+547,WildCard,New England Patriots,False,17,47,305,2,Buffalo Bills
+548,WildCard,Tampa Bay Buccaneers,True,31,15,349,0,Philadelphia Eagles
+549,WildCard,Philadelphia Eagles,False,15,31,339,3,Tampa Bay Buccaneers
+550,WildCard,San Francisco 49ers,False,23,17,341,1,Dallas Cowboys
+551,WildCard,Dallas Cowboys,True,17,23,307,1,San Francisco 49ers
+552,WildCard,Kansas City Chiefs,True,42,21,478,2,Pittsburgh Steelers
+553,WildCard,Pittsburgh Steelers,False,21,42,257,1,Kansas City Chiefs
+554,WildCard,Los Angeles Rams,True,34,11,375,0,Arizona Cardinals
+555,WildCard,Arizona Cardinals,False,11,34,183,2,Los Angeles Rams
+556,Division,Cincinnati Bengals,False,19,16,345,1,Tennessee Titans
+557,Division,Tennessee Titans,True,16,19,353,3,Cincinnati Bengals
+558,Division,San Francisco 49ers,False,13,10,212,1,Green Bay Packers
+559,Division,Green Bay Packers,True,10,13,263,1,San Francisco 49ers
+560,Division,Los Angeles Rams,False,30,27,428,4,Tampa Bay Buccaneers
+561,Division,Tampa Bay Buccaneers,True,27,30,359,2,Los Angeles Rams
+562,Division,Kansas City Chiefs,True,42,36,552,0,Buffalo Bills
+563,Division,Buffalo Bills,False,36,42,422,0,Kansas City Chiefs
+564,ConfChamp,Cincinnati Bengals,False,27,24,359,1,Kansas City Chiefs
+565,ConfChamp,Kansas City Chiefs,True,24,27,375,2,Cincinnati Bengals
+566,ConfChamp,Los Angeles Rams,True,20,17,396,1,San Francisco 49ers
+567,ConfChamp,San Francisco 49ers,False,17,20,282,1,Los Angeles Rams
+568,SuperBowl,Los Angeles Rams,False,23,20,313,2,Cincinnati Bengals
+569,SuperBowl,Cincinnati Bengals,False,20,23,305,0,Los Angeles Rams
