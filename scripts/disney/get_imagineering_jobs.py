@@ -102,4 +102,10 @@ def parse(cache_path):
 
 
 if __name__ == '__main__':
+    if not os.path.exists('./data'):
+        os.mkdir('./data')
+
+    if not os.path.exists('./data/disney'):
+        os.mkdir('./data/disney')
+
     parse('./data/disney/jobs.csv')

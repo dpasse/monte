@@ -112,4 +112,7 @@ def parse(jobs_path, cache_path):
 
 
 if __name__ == '__main__':
-    parse('./data/disney/jobs.csv', './data/disney/job_descriptions.json')
+    if not os.path.exists('./data/disney/jobs.csv'):
+        print('* this script is dependent on "get_imagineering_jobs.py", please run that first.')
+    else:
+        parse('./data/disney/jobs.csv', './data/disney/job_descriptions.json')
