@@ -26,5 +26,6 @@ run_jobs:
 	make scrap_imagineering_jobs
 	make scrap_imagineering_job_descriptions
 
-	make scrap_league_rosters
-	make scrap_game_stats
+run_fantasy_jobs:
+	make scrap_imagineering_jobs
+	make scrap_imagineering_job_descriptions
