@@ -7,6 +7,12 @@
 <br />
 <br />
 
+## <b><u>ML</u></b>
+
+#### <b>Disney</b>
+
+- [LDA - Imagineering Jobs](https://github.com/dpasse/monte/blob/main/workspace/disney/disney2.ipynb)<br/><p>Identify Topics in Disney Imagineering Job Postings using LDA</p>
+
 ## <b><u>Simulations</u></b>
 
 #### <b>NCAAM</b>
