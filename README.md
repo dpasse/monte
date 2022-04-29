@@ -7,11 +7,13 @@
 <br />
 <br />
 
-## <b><u>ML</u></b>
+## <b><u>NLP</u></b>
 
 #### <b>Disney</b>
 
-- [LDA - Imagineering Jobs](https://github.com/dpasse/monte/blob/main/workspace/disney/disney2.ipynb)<br/><p>Identify Topics in Disney Imagineering Job Postings using LDA</p>
+- [Scrapping Disney Imagineering Job Board](https://github.com/dpasse/monte/blob/main/workspace/disney/disney1.ipynb)<br/><p>Scrapping Disney Imagineering Job Board</p>
+
+- [Topic Modeling w/ LDA - Imagineering Jobs](https://github.com/dpasse/monte/blob/main/workspace/disney/disney2.ipynb)<br/><p>Topic Modeling with Disney Imagineering Job Postings using LDA</p>
 
 ## <b><u>Simulations</u></b>
 
@@ -22,6 +24,7 @@
 #### <b>NFL</b>
 
 - [NFL Game - Basic](https://github.com/dpasse/monte/blob/main/workspace/nfl/sim-game-basic.ipynb)<br/><p>Estimate Win Probabilities based on Points For and Points Against from the Regular Season.</p>
+- [Power Rankings - Basic](https://github.com/dpasse/monte/blob/main/workspace/nfl/power-rankings.ipynb)<br/><p>Compute Home/Away Power Rankings based on the 2021 regular season game scores.</p>
 
 #### <b>MLB</b>
 
