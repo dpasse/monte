@@ -13,7 +13,7 @@
 
 - [Scrapping Disney Imagineering Job Board](https://github.com/dpasse/monte/blob/main/workspace/disney/disney1.ipynb)<br/>
 
-- [Topic Modeling w/ LDA - Imagineering Jobs](https://github.com/dpasse/monte/blob/main/workspace/disney/disney2.ipynb)<br/><p>- Topic Modeling with Disney Imagineering Job Postings using LDA</p>
+- [Topic Modeling w/ LDA - Disney Imagineering Jobs](https://github.com/dpasse/monte/blob/main/workspace/disney/disney2.ipynb)<br/><p>- Topic Modeling with Disney Imagineering Job Postings using LDA</p>
 
 ## <b><u>Simulations</u></b>
 
