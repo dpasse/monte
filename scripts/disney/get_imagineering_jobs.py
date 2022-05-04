@@ -39,9 +39,7 @@ def save(df, cache_path):
         q = np.logical_and(q, df_new['close'] == '-')
         df_new.loc[q, 'close'] = date.today()
 
-    df_new = df_new.sort_values(['date'])
-
-    df_new.to_csv(cache_path, index=False)
+    df_new.sort_values(['date', 'cat_id', 'job_id',]).to_csv(cache_path, index=False)
     return df_new
 
 def parse(cache_path):
