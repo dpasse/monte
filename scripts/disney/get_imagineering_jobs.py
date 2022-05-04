@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 def save(df, cache_path):
     if not os.path.exists(cache_path):
-        df.to_csv(cache_path, index=False)
+        df.sort_values(['date', 'cat_id', 'job_id'], ascending=True).to_csv(cache_path, index=False)
         return df
 
     df_gospel = pd.read_csv(cache_path)
@@ -39,7 +39,7 @@ def save(df, cache_path):
         q = np.logical_and(q, df_new['close'] == '-')
         df_new.loc[q, 'close'] = date.today()
 
-    df_new.sort_values(['date', 'cat_id', 'job_id',]).to_csv(cache_path, index=False)
+    df_new.sort_values(['date', 'cat_id', 'job_id'], ascending=True).to_csv(cache_path, index=False)
     return df_new
 
 def parse(cache_path):
@@ -48,7 +48,7 @@ def parse(cache_path):
 
     jobs = []
     while p <= total:
-        url = f'https://jobs.disneycareers.com/search-jobs?k=imagineering&p={p}'
+        url = f'https://jobs.disneycareers.com/search-jobs?ascf=[%7B%22key%22:%22custom_fields.IndustryCustomField%22,%22value%22:%22Walt+Disney+Imagineering%22%7D]&p={p}'
         response = requests.get(url)
 
         if response.status_code != 200:
