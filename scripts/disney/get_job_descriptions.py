@@ -1,5 +1,6 @@
 import re
 import os
+import sys
 import requests
 import time
 import json
@@ -112,7 +113,15 @@ def parse(jobs_path, cache_path):
 
 
 if __name__ == '__main__':
-    if not os.path.exists('./data/disney/jobs.csv'):
+    search_type = ''
+    if len(sys.argv) == 2:
+        search_type = sys.argv[1]
+
+    file_name_prefix = '' if search_type == '' else f'{search_type}_'
+    input_file_path = f'./data/disney/{file_name_prefix}jobs.csv'
+    output_file_path = f'./data/disney/{file_name_prefix}job_descriptions.json'
+
+    if not os.path.exists(input_file_path):
         print('* this script is dependent on "get_imagineering_jobs.py", please run that first.')
     else:
-        parse('./data/disney/jobs.csv', './data/disney/job_descriptions.json')
+        parse(input_file_path, output_file_path)

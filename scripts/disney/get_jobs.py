@@ -1,5 +1,6 @@
 import re
 import os
+import sys
 import requests
 import time
 import numpy as np
@@ -7,6 +8,11 @@ import pandas as pd
 from datetime import date
 
 from bs4 import BeautifulSoup
+
+
+search_parameters = {
+    'imagineering': 'ascf=[%7B%22key%22:%22custom_fields.IndustryCustomField%22,%22value%22:%22Walt+Disney+Imagineering%22%7D]',
+}
 
 
 def save(df, cache_path):
@@ -42,13 +48,18 @@ def save(df, cache_path):
     df_new.sort_values(['date', 'cat_id', 'job_id'], ascending=True).to_csv(cache_path, index=False)
     return df_new
 
-def parse(cache_path):
+def parse(cache_path, search_type='all'):
     p = 1
     total = 20
 
+    query_parameters = ''
+    if search_type in search_parameters:
+        query_parameters += '&'
+        query_parameters += search_parameters[search_type]
+
     jobs = []
     while p <= total:
-        url = f'https://jobs.disneycareers.com/search-jobs?ascf=[%7B%22key%22:%22custom_fields.IndustryCustomField%22,%22value%22:%22Walt+Disney+Imagineering%22%7D]&p={p}'
+        url = f'https://jobs.disneycareers.com/search-jobs?p={p}&k=imagineering{query_parameters}'
         response = requests.get(url)
 
         if response.status_code != 200:
@@ -89,6 +100,9 @@ def parse(cache_path):
                 'close': '-'
             })
 
+
+        print(f'    - completed: {p} / {total}')
+
         p += 1
         time.sleep(5)
 
@@ -102,10 +116,15 @@ def parse(cache_path):
 
 
 if __name__ == '__main__':
+    search_type = ''
+    if len(sys.argv) == 2:
+        search_type = sys.argv[1]
+
     if not os.path.exists('./data'):
         os.mkdir('./data')
 
     if not os.path.exists('./data/disney'):
         os.mkdir('./data/disney')
 
-    parse('./data/disney/jobs.csv')
+    file_name_prefix = '' if search_type == '' else f'{search_type}_'
+    parse(f'./data/disney/{file_name_prefix}jobs.csv', search_type)

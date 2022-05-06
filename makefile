@@ -16,13 +16,23 @@ scrap_league_rosters:
 scrap_game_stats:
 	python3 scripts/mlb/scrap-game-stats.py 853208662 "Snoring Eeyores" "eeyores-853208662"
 
+scrap_jobs:
+	python3 scripts/disney/get_jobs.py
+
 scrap_imagineering_jobs:
-	python3 scripts/disney/get_imagineering_jobs.py
+	python3 scripts/disney/get_jobs.py "imagineering"
+
+scrap_job_descriptions:
+	python3 scripts/disney/get_job_descriptions.py
 
 scrap_imagineering_job_descriptions:
-	python3 scripts/disney/get_imagineering_job_descriptions.py
+	python3 scripts/disney/get_job_descriptions.py "imagineering"
 
 run_jobs:
+	make scrap_jobs
+	make scrap_job_descriptions
+
+run_imagineering_jobs:
 	make scrap_imagineering_jobs
 	make scrap_imagineering_job_descriptions
 
