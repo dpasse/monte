@@ -52,14 +52,15 @@ def parse(cache_path, search_type='all'):
     p = 1
     total = 20
 
-    query_parameters = ''
+    query_parameters = '&'
     if search_type in search_parameters:
-        query_parameters += '&'
         query_parameters += search_parameters[search_type]
+    else:
+        query_parameters += 'k=imagineering'
 
     jobs = []
     while p <= total:
-        url = f'https://jobs.disneycareers.com/search-jobs?p={p}&k=imagineering{query_parameters}'
+        url = f'https://jobs.disneycareers.com/search-jobs?p={p}{query_parameters}'
         response = requests.get(url)
 
         if response.status_code != 200:
