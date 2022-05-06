@@ -60,8 +60,15 @@ class ScrapPlayers():
                 content = requests.get(url).content
                 bs = BeautifulSoup(content, features='html.parser')
 
+                section = bs.select('.gamelog')
+                if len(section) == 0:
+                    print(f'error: {url}')
+                    continue
+
+                section = section[0]
+
                 try:
-                    rows = bs.select('.mb4 .Table__TBODY tr')
+                    rows = section.select('.mb5 .Table__TBODY tr')
                     stats = [
                         self.transform(player, row.find_all('td'), is_a)
                         for row
@@ -81,33 +88,12 @@ def save(df, cache_file_path):
     if df.empty:
         return
 
-    def merge(df_gospel, df_scrapped):
-        df_gospel_slim = df_gospel[['ID', 'DATE']]
-        df_scrapped_new = df_scrapped \
-            .merge(df_gospel_slim, indicator='i', how='outer') \
-            .query('i == "left_only"') \
-            .drop(['i'], axis=1)
-
-        if df_scrapped_new.empty:
-            return df_gospel
-
-        return pd.concat([df_gospel, df_scrapped_new], axis=0)
-
-    if not os.path.exists(cache_file_path):
-        df.to_csv(cache_file_path, index=False)
-        return
-
-    df_gosbel = pd.read_csv(cache_file_path)
-    for column in df_gosbel.columns:
-        df_gosbel[column] = df_gosbel[column].astype(object)
-
     for column in df.columns:
         df[column] = df[column].astype(object)
 
-    df_gosbel['ID'] = df_gosbel['ID'].astype(int)
     df['ID'] = df['ID'].astype(int)
 
-    merge(df_gosbel, df).to_csv(cache_file_path, index=False)
+    df.to_csv(cache_file_path, index=False)
 
 def main(players, output_file_name):
     pitchers, batters = ScrapPlayers().run(players)
