@@ -133,3 +133,4 @@ dmypy.json
 
 /data/mlb/*
 /data/disney/models/*
+/data/disney/disney_jobs*

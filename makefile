@@ -28,6 +28,9 @@ scrap_job_descriptions:
 scrap_imagineering_job_descriptions:
 	python3 scripts/disney/get_job_descriptions.py "imagineering"
 
+merge_imagineering_datasets:
+	python3 scripts/disney/merge_datasets.py "imagineering"
+
 run_jobs:
 	make scrap_jobs
 	make scrap_job_descriptions
@@ -35,6 +38,7 @@ run_jobs:
 run_imagineering_jobs:
 	make scrap_imagineering_jobs
 	make scrap_imagineering_job_descriptions
+	make merge_imagineering_datasets
 
 run_fantasy_jobs:
 	make scrap_league_rosters
