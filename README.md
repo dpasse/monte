@@ -13,13 +13,15 @@
 
 - [Scrapping Disney Imagineering Job Board](https://github.com/dpasse/monte/blob/main/workspace/disney/disney1.ipynb)<br/>
 
-- [Topic Modeling w/ LDA - Disney Imagineering Jobs](https://github.com/dpasse/monte/blob/main/workspace/disney/disney2.ipynb)<br/><p>- Topic Modeling with Disney Imagineering Job Postings using LDA</p>
+- [Topic Modeling w/ LDA - Subset of Disney Jobs](https://github.com/dpasse/monte/blob/main/workspace/disney/disney2.ipynb)<br/><p>- Topic Modeling where k=imagineering using LDA</p>
 
 ## <b><u>Simulations</u></b>
 
 #### <b>NCAAM</b>
 
 - [NCAAM Tournament - Basic](https://github.com/dpasse/monte/blob/main/workspace/ncaa/sim-tourny.ipynb)<br/><p>- NCAA Tournament Simulation using historical probabilities.</p>
+
+- [NCAAM Tournament - Sagarin Rankings](https://github.com/dpasse/monte/blob/main/workspace/ncaa/sagarin.ipynb)<br/><p>- NCAA Tournament Simulation using Sagarin Rankings.</p>
 
 #### <b>NFL</b>
 
