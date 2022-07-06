@@ -11,3 +11,4 @@ sklearn==1.0.2
 sentence-transformers==2.2.0
 transformers[tf-cpu]
 ipywidgets
+python-crontab==2.6.0
