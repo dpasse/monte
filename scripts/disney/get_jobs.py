@@ -14,7 +14,6 @@ search_parameters = {
     'imagineering': 'ascf=[%7B%22key%22:%22custom_fields.IndustryCustomField%22,%22value%22:%22Walt+Disney+Imagineering%22%7D]',
 }
 
-
 def save(df, cache_path):
     if not os.path.exists(cache_path):
         df.sort_values(['date', 'cat_id', 'job_id'], ascending=True).to_csv(cache_path, index=False)
