@@ -1,5 +1,5 @@
 
-### Adapter "Wrapper" Pattern
+# Adapter "Wrapper" Pattern
 
 
 - allows an interface of an existing class to be used as another interface.

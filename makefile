@@ -16,12 +16,6 @@ scrap_league_rosters:
 scrap_game_stats:
 	python3 scripts/mlb/scrap-game-stats.py 853208662 "Snoring Eeyores" "eeyores-853208662"
 
-scrap_jobs:
-	python3 scripts/disney/get_jobs.py
-
-scrap_imagineering_jobs:
-	python3 scripts/disney/get_jobs.py "imagineering"
-
 scrap_job_descriptions:
 	python3 scripts/disney/get_job_descriptions.py
 
@@ -31,15 +25,13 @@ scrap_imagineering_job_descriptions:
 merge_imagineering_datasets:
 	python3 scripts/disney/merge_datasets.py "imagineering"
 
-run_jobs:
-	make scrap_jobs
-	make scrap_job_descriptions
-
-run_imagineering_jobs:
-	make scrap_imagineering_jobs
-	make scrap_imagineering_job_descriptions
-	make merge_imagineering_datasets
-
 run_fantasy_jobs:
 	make scrap_league_rosters
 	make scrap_game_stats
+
+unique_identifier = $(shell date +%Y%m%d_%H%M%S)
+imagineering:
+	cd ./projects/disney; scrapy crawl ImagineeringSpider -o ../../data/disney/job_dumps/Imagineering_${unique_identifier}.json
+	python3 scripts/disney/dumps_to_job_csv.py "./data/disney/job_dumps" "./data/disney/imagineering_jobs.csv"
+	python3 scripts/disney/job_post.py "./data/disney/imagineering_jobs.csv"
+

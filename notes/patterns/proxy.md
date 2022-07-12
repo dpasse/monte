@@ -1,5 +1,5 @@
 
-### Proxy
+# Proxy
 
 - access control. middleman. gets between you and the real subject and controls access to it.
 - all about wrapping one object. slightly different from the decorator pattern.
