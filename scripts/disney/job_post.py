@@ -25,7 +25,12 @@ def parse(file_path):
     df = pd.read_csv(file_path)
     df['req_id'] = df['req_id'].fillna('').astype(str)
 
-    for index, row in df[df['req_id'] == ''].iterrows():
+    subset = df[df['req_id'] == '']
+
+    print(f'grabbing {len(subset)} job post(s)')
+    print()
+
+    for index, row in subset.iterrows():
         df.loc[df.index == index, 'req_id'] = get_req_number(row['url'])
 
         print(' * sleeping...')

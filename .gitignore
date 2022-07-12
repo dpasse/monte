@@ -132,6 +132,7 @@ dmypy.json
 /monte
 
 /data/mlb/*
+/data/espn/*
 /data/disney/models/*
 /data/disney/disney_jobs*
 /.vscode
