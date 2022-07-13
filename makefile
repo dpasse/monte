@@ -35,6 +35,7 @@ imagineering:
 	cd ./projects/disney; scrapy crawl ImagineeringSpider -o ../../data/disney/job_dumps/Imagineering_${unique_identifier}.json
 	python3 scripts/disney/dumps_to_job_csv.py "./data/disney/job_dumps" "./data/disney/imagineering_jobs.csv"
 	python3 scripts/disney/job_post.py "./data/disney/imagineering_jobs.csv"
+	python3 scripts/disney/transform.py "./data/disney/imagineering_jobs.csv"
 
 fantasy_rosters:
 	cd ./projects/espn; scrapy crawl FantasyLeagueRosterSpider -o ../../data/espn/job_dumps/rosters_${unique_identifier}.json

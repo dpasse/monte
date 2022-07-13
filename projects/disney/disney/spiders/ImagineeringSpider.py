@@ -3,6 +3,8 @@ import scrapy
 
 from bs4 import BeautifulSoup
 
+from ..items import ImagineeringJobPostItem
+
 
 class ImagineeringSpider(scrapy.Spider):
     name = 'ImagineeringSpider'
@@ -31,16 +33,16 @@ class ImagineeringSpider(scrapy.Spider):
                 cat_id = re.search(r'(?<=\/)(\d+)(?=\/\d+$)', link)
                 job_id = re.search(r'(?<=\/)(\d+)$', link)
 
-                yield {
+                yield ImagineeringJobPostItem({
                     'cat_id': cat_id.group(0),
                     'job_id': job_id.group(0),
+                    'req_id': '',
                     'title': re.sub('\s+', ' ', cols[0].text).strip(),
                     'date': re.sub('\s+', ' ', cols[1].text).strip(),
                     'brand': re.sub('\s+', ' ', cols[2].text).strip(),
                     'location': re.sub('\s+', ' ', cols[3].text).strip(),
-                    'req_id': '',
                     'url': f'https://jobs.disneycareers.com{link}',
-                }
+                })
 
             next = bs.select('.pagination-paging .next:not(.disabled)')
             if len(next) > 0:
