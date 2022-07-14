@@ -11,7 +11,7 @@ def get_req_number(url):
     print('requesting data from:', url)
 
     response = requests.get(url)
-    if response.status_code == '404':
+    if response.status_code == 404:
         return '404 - Not Found'
 
     bs = BeautifulSoup(
@@ -23,7 +23,7 @@ def get_req_number(url):
 
 def parse(file_path):
     df = pd.read_csv(file_path)
-    df['req_id'] = df['req_id'].fillna('').astype(str)
+    df['req_id'] = df['req_id'].fillna('').map(lambda a: '' if a == '404 - Not Found' else a).astype(str)
 
     subset = df[df['req_id'] == '']
 

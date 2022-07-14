@@ -56,10 +56,11 @@ def parse(files, cache_path):
             df['cat_id'] = df['cat_id'].astype(int)
             df['job_id'] = df['job_id'].astype(int)
             df['date'] = pd.to_datetime(df.date)
-
             df['close'] = '-'
+
             df['full_title'] = ''
-            df['keywords'] = ''
+            df['level'] = ''
+            df['job_type'] = ''
 
             save(
               df,

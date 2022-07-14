@@ -12,6 +12,8 @@ BOT_NAME = 'disney'
 SPIDER_MODULES = ['disney.spiders']
 NEWSPIDER_MODULE = 'disney.spiders'
 
+FEED_FORMAT = 'json'
+
 CLOSESPIDER_PAGECOUNT = 25
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -19,7 +21,6 @@ CLOSESPIDER_PAGECOUNT = 25
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
-
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
