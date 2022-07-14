@@ -10,7 +10,7 @@
 ## <b><u>NLP</u></b>
 
 #### <b>Disney</b>
-- [Imagineering Job Posting Graph](https://github.com/dpasse/monte/blob/main/workspace/disney/graph.ipynb)<br/>
+- [Imagineering Job Posting Graph](https://github.com/dpasse/monte/blob/main/workspace/disney/imagineering_job_posting_graph.ipynb)<br/>
 
 ## <b><u>Simulations</u></b>
 
