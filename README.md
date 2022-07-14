@@ -10,10 +10,7 @@
 ## <b><u>NLP</u></b>
 
 #### <b>Disney</b>
-
-- [Scrapping Disney Imagineering Job Board](https://github.com/dpasse/monte/blob/main/workspace/disney/disney1.ipynb)<br/>
-
-- [Topic Modeling w/ LDA - Subset of Disney Jobs](https://github.com/dpasse/monte/blob/main/workspace/disney/disney2.ipynb)<br/><p>- Topic Modeling where k=imagineering using LDA</p>
+- [Imagineering Job Posting Graph](https://github.com/dpasse/monte/blob/main/workspace/disney/graph.ipynb)<br/>
 
 ## <b><u>Simulations</u></b>
 
