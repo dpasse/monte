@@ -1,8 +1,16 @@
 # Imagineering Jobs
 
-| Run         | Open        | Close    |
-| ----------- | ----------- | ---------|
-| 7/12/2022   | +29         | 0        |
-| 7/13/2022   | 0           | +1       |
-| 7/14/2022   | +7          | 0        |
-| 7/15/2022   | 0           | +2        |
+| column     | Open                 |
+| ---------- | ---------------------|
+| cat_id     | category id          |
+| job_id     | job id               |
+| title      | title of job         |
+| date       | date job was posted  |
+| brand      | 'Imagineering'       |
+| location   | location of job      |
+| req_id     | req. id for job      |
+| url        | url of full posting  |
+| close      | date job post closed |
+| full_title | clean, full title    |
+| level      | job level            |
+| job_type   | job type             |
