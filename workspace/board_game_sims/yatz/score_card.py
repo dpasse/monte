@@ -1,17 +1,31 @@
 from abc import ABC
 from typing import Dict, Tuple
 from .scorer import SumByNumber, Kind, TwoPair, Chance, Yatzy, Straight, FullHouse, Scorer
-from .player import Score
 from .dice import Dice
 
 
 class DiceScoreCard(ABC):
     def __init__(self, rules: Tuple[str, Scorer]) -> None:
         self._rules = {
-            name: { 'rule': rule }
+            name: { 'rule': rule, 'claim': None }
             for name, rule
             in rules
         }
+
+    def _contains_mark(self, rule_key: str):
+        return not self._rules[rule_key]['claim'] is None
+
+    def _get_mark(self, rule_key: str):
+        if not self._contains_mark(rule_key):
+            return None
+
+        return self._rules[rule_key]['claim']
+
+    def _set_mark(self, rule_key: str, mark):
+        if self._contains_mark(rule_key):
+            raise Exception('already taken')
+
+        self._rules[rule_key]['claim'] = mark
 
     def mark(self, rule_key: str, user: str, dice: Dice) -> int:
         if not rule_key in self._rules:
@@ -21,21 +35,23 @@ class DiceScoreCard(ABC):
         if not Scorer.is_response_valid(score):
             raise Exception('dice / scorer combo is invalid')
 
-        self._rules[rule_key]['u'] = user
-        self._rules[rule_key]['score'] = score['score']
-        return self._rules[rule_key]['score']
+        score = score['score']
+        self._set_mark(rule_key, mark={'u': user, 'score': score})
+
+        return score
 
     def calculate_score(self):
         card = {}
-        for _, item in self._rules.items():
-            if not 'u' in item:
+        for key in self._rules.keys():
+            if not self._contains_mark(key):
                 continue
 
-            player_name = item['u']
+            mark = self._get_mark(key)
+            player_name = mark['u']
             if not player_name in card:
                 card[player_name] = 0
 
-            card[player_name] += item['score']
+            card[player_name] += mark['score']
 
         for name, score in self.get_bonus().items():
             if not name in card:
@@ -48,13 +64,10 @@ class DiceScoreCard(ABC):
     def get_bonus(self) -> Dict[str, int]:
         return {}
 
-    def get_all_scores_by_dice(self, dice: Dice, skip=[]) -> Dict[str, Score]:
+    def get_all_scores_by_dice(self, dice: Dice, skip=[]) -> Dict[str, int]:
         scores = {}
         for key, item in self._rules.items():
-            if 'u' in item:
-                continue
-
-            if key in skip:
+            if key in skip or self._contains_mark(key):
                 continue
 
             response = item['rule'].score(dice)
@@ -65,30 +78,31 @@ class DiceScoreCard(ABC):
 
     def is_complete(self) -> bool:
         return len([
-            k
-            for k, item
-            in self._rules.items()
-            if not 'u' in item
+            key
+            for key
+            in self._rules.keys()
+            if not self._contains_mark(key)
         ]) == 0
 
     def reset(self) -> None:
-        for item in self._rules.values():
-            if 'u' in item:
-                del item['u']
-
-            if 'score' in item:
-                del item['score']
+        for key in self._rules.keys():
+            self._set_mark(key, mark=None)
 
     def __repr__(self) -> str:
         return self.__str__()
 
     def __str__(self) -> str:
         message = 'Score Card:' + '\n'
-        for name, item in self._rules.items():
-            user = item['u']
-            score = item['score']
+        for key in self._rules.keys():
+            mark = self._get_mark(key)
 
-            message += f' * {name} - {user} w/ {score}'
+            if mark is None:
+                message += f' * {key} -'
+            else:
+                user = mark['u']
+                score = mark['score']
+                message += f' * {key} - {user} w/ {score}'
+
             message += '\n'
 
         return message
@@ -127,13 +141,15 @@ class YatzyScoreCard(DiceScoreCard):
 
     def get_bonus(self) -> Dict[str, int]:
         players = {}
-        for rule_name, item in self._rules.items():
-            if rule_name in self._upper_bonus_keys and 'u' in item:
-                player_name = item['u']
+        for rule_name in self._rules.keys():
+            if rule_name in self._upper_bonus_keys and self._contains_mark(rule_name):
+                mark = self._get_mark(rule_name)
+
+                player_name = mark['u']
                 if not player_name in players:
                     players[player_name] = 0
 
-                players[player_name] += item['score']
+                players[player_name] += mark['score']
 
         return {
             player_name: 50

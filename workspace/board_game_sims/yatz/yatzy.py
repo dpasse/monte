@@ -23,6 +23,9 @@ class Yatzy():
 
     def play(self) -> List[Tuple[str, int]]:
         self.reset()
+
+        self.print(self._score_card.is_complete())
+
         while not self._score_card.is_complete():
             self.play_round()
 
