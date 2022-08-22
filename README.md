@@ -18,6 +18,10 @@
 
 - [Yatzy](https://github.com/dpasse/monte/blob/main/workspace/board_game_sims/yatzy.ipynb)<br/><p>- Simple Yatzy simulation setup to allow for different strategies.</p>
 
+#### <b>NCAAW/WNBA</b>
+
+- [ESPN](https://github.com/dpasse/monte/blob/main/workspace/wncaa/teams.ipynb)<br/><p>- Extract Team / Player statistics and shot charts.</p>
+
 #### <b>NCAAM</b>
 
 - [NCAAM Tournament - Basic](https://github.com/dpasse/monte/blob/main/workspace/ncaa/sim-tourny.ipynb)<br/><p>- NCAA Tournament Simulation using historical probabilities.</p>
