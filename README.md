@@ -20,7 +20,7 @@
 
 #### <b>NCAAW/WNBA</b>
 
-- [ESPN](https://github.com/dpasse/monte/blob/main/workspace/wncaa/teams.ipynb)<br/><p>- Extract Team / Player statistics and shot charts.</p>
+- [Extract Shot Charts](https://github.com/dpasse/monte/blob/main/workspace/wncaa/teams.ipynb)<br/><p>- Extract Team / Player statistics and shot charts from ESPN.</p>
 
 #### <b>NCAAM</b>
 
