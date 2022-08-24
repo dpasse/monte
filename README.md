@@ -12,15 +12,15 @@
 #### <b>Disney</b>
 - [Imagineering Job Posting Graph](https://github.com/dpasse/monte/blob/main/workspace/disney/imagineering_job_posting_graph.ipynb)<br/>
 
+#### <b>NCAAW/WNBA</b>
+
+- [Extract Shot Charts](https://github.com/dpasse/monte/blob/main/workspace/wncaa/teams.ipynb)<br/><p>- Extract Player Shot Charts from ESPN.</p>
+
 ## <b><u>Simulations</u></b>
 
 #### <b>Board Games</b>
 
 - [Yatzy](https://github.com/dpasse/monte/blob/main/workspace/board_game_sims/yatzy.ipynb)<br/><p>- Simple Yatzy simulation setup to allow for different strategies.</p>
-
-#### <b>NCAAW/WNBA</b>
-
-- [Extract Shot Charts](https://github.com/dpasse/monte/blob/main/workspace/wncaa/teams.ipynb)<br/><p>- Extract Team / Player statistics and shot charts from ESPN.</p>
 
 #### <b>NCAAM</b>
 
