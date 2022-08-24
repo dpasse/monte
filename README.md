@@ -14,7 +14,7 @@
 
 #### <b>NCAAW/WNBA</b>
 
-- [Extract Shot Charts](https://github.com/dpasse/monte/blob/main/workspace/wncaa/teams.ipynb)<br/><p>- Extract Player Shot Charts from ESPN.</p>
+- [Extract Shot Charts from ESPN](https://github.com/dpasse/monte/blob/main/workspace/wncaa/teams.ipynb)<br/>
 
 ## <b><u>Simulations</u></b>
 
