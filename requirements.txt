@@ -12,4 +12,5 @@ sentence-transformers==2.2.0
 transformers[tf-cpu]
 scrapy==2.6.1
 networkx==2.8.4
+seaborn==0.11.2
 ipywidgets
