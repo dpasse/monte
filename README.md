@@ -10,13 +10,16 @@
 ## <b><u>NLP</u></b>
 
 #### <b>Disney</b>
+
+- [Extract Magic Kingdom wait times](https://github.com/dpasse/monte/blob/main/workspace/disney/magic_kingdom.ipynb)<br/>
+
 - [Imagineering Job Posting Graph](https://github.com/dpasse/monte/blob/main/workspace/disney/imagineering_job_posting_graph.ipynb)<br/>
 
 #### <b>NCAAW/WNBA</b>
 
 - [Extract Data From ESPN](https://github.com/dpasse/monte/blob/main/workspace/wncaa/teams.ipynb)<br/>
 
-- [View Shot Charts](https://github.com/dpasse/monte/blob/main/workspace/wncaa/shot_charts.ipynb)<br/>
+- [WNBA Shot Charts](https://github.com/dpasse/monte/blob/main/workspace/wncaa/shot_charts.ipynb)<br/>
 
 ## <b><u>Simulations</u></b>
 
