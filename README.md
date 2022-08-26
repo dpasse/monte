@@ -21,6 +21,8 @@
 
 - [WNBA Shot Charts](https://github.com/dpasse/monte/blob/main/workspace/wncaa/shot_charts.ipynb)<br/>
 
+- [WNBA Play by Play +/-](https://github.com/dpasse/monte/blob/main/workspace/wncaa/plus_minus.ipynb)<br/>
+
 ## <b><u>Simulations</u></b>
 
 #### <b>Board Games</b>
