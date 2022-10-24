@@ -133,7 +133,9 @@ dmypy.json
 
 /data/mlb/*
 /data/espn/*
-/data/disney/models/*
-/data/disney/disney_jobs*
+/data/wnba/*
+/data/nfl/*
+/data/disney/*
 /.vscode
 .DS_Store
+
