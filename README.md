@@ -7,8 +7,6 @@
 <br />
 <br />
 
-## <b><u>NLP</u></b>
-
 #### <b>Disney</b>
 
 - [Extract Magic Kingdom wait times](https://github.com/dpasse/monte/blob/main/workspace/disney/magic_kingdom.ipynb)<br/>
@@ -20,14 +18,6 @@
 - [Extract Data From ESPN](https://github.com/dpasse/monte/blob/main/workspace/wncaa/teams.ipynb)<br/>
 
 - [WNBA Shot Charts](https://github.com/dpasse/monte/blob/main/workspace/wncaa/shot_charts.ipynb)<br/>
-
-- [WNBA Play by Play +/-](https://github.com/dpasse/monte/blob/main/workspace/wncaa/plus_minus.ipynb)<br/>
-
-## <b><u>Simulations</u></b>
-
-#### <b>Board Games</b>
-
-- [Yatzy](https://github.com/dpasse/monte/blob/main/workspace/board_game_sims/yatzy.ipynb)<br/><p>- Simple Yatzy simulation setup to allow for different strategies.</p>
 
 #### <b>NCAAM</b>
 
@@ -43,6 +33,11 @@
 #### <b>MLB</b>
 
 - [Monte Carlo - Basic](https://github.com/dpasse/monte/blob/main/workspace/mlb/monte-carlo-basic.ipynb)<br/><p>- Simulate a baseball inning where we have a 30% chance of hitting a HR / 70% chance of getting OUT.</p>
+- [Vizualize Pitches](https://github.com/dpasse/monte/blob/main/workspace/mlb/pitches.ipynb)<br/><p>- Vizualize pitches using Matplotlib.</p>
+
+#### <b>Board Games</b>
+
+- [Yatzy](https://github.com/dpasse/monte/blob/main/workspace/board_game_sims/yatzy.ipynb)<br/><p>- Simple Yatzy simulation setup to allow for different strategies.</p>
 
 <br />
 <br />
