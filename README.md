@@ -34,6 +34,7 @@
 
 - [Monte Carlo - Basic](https://github.com/dpasse/monte/blob/main/workspace/mlb/monte-carlo-basic.ipynb)<br/><p>- Simulate a baseball inning where we have a 30% chance of hitting a HR / 70% chance of getting OUT.</p>
 - [Cluster Strike Zone](https://github.com/dpasse/monte/blob/main/workspace/mlb/cluster_strike_zone.ipynb)<br/><p>- Vizualize pitches using Matplotlib.</p>
+- [Scrape Pitch Locations](https://github.com/dpasse/monte/blob/main/workspace/mlb/scrape_pitch_locations.ipynb)<br/><p>- Scrape pitch locations from ESPN Play by Play.</p>
 
 #### <b>Board Games</b>
 
