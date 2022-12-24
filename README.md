@@ -4,9 +4,6 @@
   - simulations / visualizations
 </p>
 
-<br />
-<br />
-
 #### <b>Disney</b>
 
 - [Extract Magic Kingdom wait times](https://github.com/dpasse/monte/blob/main/workspace/disney/magic_kingdom.ipynb)<br/>
