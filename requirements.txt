@@ -13,4 +13,5 @@ transformers[tf-cpu]
 scrapy==2.6.1
 networkx==2.8.4
 seaborn==0.11.2
+statsmodels==0.13.5
 ipywidgets
