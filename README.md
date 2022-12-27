@@ -33,7 +33,7 @@
 - [Cluster Strike Zone](https://github.com/dpasse/monte/blob/main/workspace/mlb/cluster_strike_zone.ipynb)<br/><p>- Vizualize pitches using Matplotlib.</p>
 - [Scrape Pitch Locations](https://github.com/dpasse/monte/blob/main/workspace/mlb/scrape_pitch_locations.ipynb)<br/><p>- Scrape pitch locations from ESPN Play by Play.</p>
 - [Pythagorean](https://github.com/dpasse/monte/blob/main/workspace/mlb/pythagorean.ipynb)<br/><p>- Predict win percentages based on runs scored and allowed.</p>
-- [Runs Created Regression](https://github.com/dpasse/monte/blob/main/workspace/mlb/runs_created_reg.ipynb)<br/><p>- Regression on runs scored across multipe seasons.</p>
+- [Runs Regression](https://github.com/dpasse/monte/blob/main/workspace/mlb/runs_regression.ipynb)<br/><p>- Regression on runs scored across multipe seasons.</p>
 
 #### <b>Board Games</b>
 
