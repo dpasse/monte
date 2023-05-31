@@ -4,7 +4,7 @@ import requests
 
 from bs4 import BeautifulSoup
 
-from bb.filesystem import load_data, save_data
+from bb.utils.filesystem import load_data, save_data
 
 TIMEOUT_IN_SECONDS = 4
 JSON_TAG = "window['__espnfitt__']="
@@ -28,8 +28,16 @@ def get_pbp(game_id: str):
     obj = json.loads(js)
     pbp = obj['page']['content']['gamepackage']['shtChrt']
 
-    home_id = pbp['tms']['home']['id']
-    away_id = pbp['tms']['away']['id']
+    home = {
+        'id': pbp['tms']['home']['id'],
+        'abbr': pbp['tms']['home']['abbrev']
+    }
+
+    away = {
+        'id': pbp['tms']['away']['id'],
+        'abbr': pbp['tms']['away']['abbrev']
+    }
+
     is_neutral_site = pbp['ntrlSte']
 
     order = 0
@@ -37,8 +45,7 @@ def get_pbp(game_id: str):
     for event in pbp['plays']:
         athlete = event['athlete']
         shot_chart.append({
-            'game_id': game_id,
-            'team_id': away_id if 'away' == event['homeAway'] else home_id,
+            'team': away if 'away' == event['homeAway'] else home,
             'player': {
                 'id': athlete['id'],
                 'name': athlete['name'] if 'name' in athlete else '',
@@ -61,7 +68,7 @@ def run(games):
     for game in games:
         game_id = game['game_id']
 
-        game['pbp'] = get_pbp(game_id)
+        game['shots'] = get_pbp(game_id)
 
         save_data(
             f'./data/pbps/{game_id}.json',

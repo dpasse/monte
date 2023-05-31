@@ -4,5 +4,8 @@ get-teams:
 get-games:
 	python games.py
 	
-get-pbp:
-	python pbp.py
+get-shot-charts:
+	python shot_charts.py
+
+text-extract:
+	python text_extract.py

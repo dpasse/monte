@@ -4,7 +4,7 @@ import requests
 
 from typing import List
 from bs4 import BeautifulSoup
-from bb.filesystem import load_data, save_data
+from bb.utils.filesystem import load_data, save_data
 
 
 TIMEOUT_IN_SECONDS = 4
