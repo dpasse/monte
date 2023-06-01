@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 from bb.utils.filesystem import load_data, save_data
 
-TIMEOUT_IN_SECONDS = 10
+TIMEOUT_IN_SECONDS = 5
 JSON_TAG = "window['__espnfitt__']="
 
 
