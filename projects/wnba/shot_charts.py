@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 from bb.utils.filesystem import load_data, save_data
 
-TIMEOUT_IN_SECONDS = 4
+TIMEOUT_IN_SECONDS = 10
 JSON_TAG = "window['__espnfitt__']="
 
 
@@ -44,6 +44,7 @@ def get_pbp(game_id: str):
     shot_chart = []
     for event in pbp['plays']:
         athlete = event['athlete']
+        shot_type = event['type']
         shot_chart.append({
             'team': away if 'away' == event['homeAway'] else home,
             'player': {
@@ -60,6 +61,10 @@ def get_pbp(game_id: str):
             'text': event['text'],
             'made': event['scoringPlay'] if 'scoringPlay' in event else False,
             'order': order,
+            'type': {
+                'id': shot_type['id'],
+                'text': shot_type['txt'],
+            }
         })
 
     return shot_chart
@@ -67,6 +72,8 @@ def get_pbp(game_id: str):
 def run(games):
     for game in games:
         game_id = game['game_id']
+
+        print(game_id)
 
         game['shots'] = get_pbp(game_id)
 
@@ -76,6 +83,7 @@ def run(games):
         )
 
         time.sleep(TIMEOUT_IN_SECONDS)
+
 
 if __name__ == '__main__':
     run(
