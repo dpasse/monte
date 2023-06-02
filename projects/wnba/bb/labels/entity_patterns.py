@@ -8,16 +8,12 @@ entity_patterns = [
         regexes=[
             RegEx(
                 expressions=[
-                    r'\b(two|three)\s+point\s+pullup\s+jump\s+shot\b',
-                    r'\b(two|three)\s+point\s+jumper\b',
-                    r'\b(two|three)\s+point\s+shot\b',
-                    r'\b(two|three)\s+pointer\b',
                     r'\b((?:tip|hook|dunk)\s+shot)\b',
                     r'\b(jump\s+bank\s+shot)\b',
                     r'\b(free\s*throw)\b',
                     r'\b(jump\s*shot)\b',
                     r'\b(jumper)\b',
-                    r'\b(dunk|shot|layup)\b'
+                    r'\b(dunk|shot|layup|pointer)\b'
                 ],
                 flags=re.IGNORECASE
             ),
@@ -28,6 +24,9 @@ entity_patterns = [
         regexes=[
             RegEx(
                 expressions=[
+                    r'\b(two|three)\s+point\s+pullup\b',
+                    r'\b(two|three)\s+point\b',
+                    r'\b(two|three)\b',
                     r'\b(alley\s*oop)\b',
                     r'\b((?:driving|running)\s+(?:pullup|floating))\b',
                     r'\b(step\s*back)\b',

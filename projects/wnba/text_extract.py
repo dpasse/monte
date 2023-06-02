@@ -36,7 +36,9 @@ relation_extractor = RelationPipeline(
 
 def extract(shot_chart):
     for shot in shot_chart['shots']:
-        extracts = {}
+        extracts = {
+            'info': []
+        }
 
         text = shot['text']
         entities, relations = relation_extractor.extract(text)
@@ -47,11 +49,17 @@ def extract(shot_chart):
 
         if 'r("QUANTITY", "UNITS")' in id_to_relation:
             is_units_of = id_to_relation['r("QUANTITY", "UNITS")']
-            extracts['distance'] = int(is_units_of.e1.text)
+            extracts['distance'] = {
+                'value': int(is_units_of.e1.text),
+                'unit': is_units_of.e2.text,
+            }
 
         if 'r("SHOT", "ACTION")' in id_to_relation:
             is_of_type = id_to_relation['r("SHOT", "ACTION")']
-            extracts['before'] = is_of_type.e2.text.split(' ')
+            extracts['before'] = is_of_type.e2.text
+            extracts['info'].extend(
+                list(is_of_type.e2.get_attributes_by_label('concepts'))
+            )
 
         extracted_shot = [
             entity
@@ -62,21 +70,19 @@ def extract(shot_chart):
         extracts['text'] = extracted_shot.text
 
         if 'pullup' in extracted_shot.text:
-            if 'before' in extracts:
-                extracts['before'].append('pullup')
-            else:
-                extracts['before'] = ['pullup']
+            if not 'before' in extracts:
+                extracts['before'] = []
 
-        extracts['info'] = []
+            extracts['before'].append(['pullup'])
 
-        ctypes = list(extracted_shot.get_attributes_by_label('ctypes'))
-        if len(ctypes) > 0:
-            extracts['info'].extend(ctypes)
+        extracts['info'].extend(
+            list(extracted_shot.get_attributes_by_label('ctypes'))
+        )
 
-        concepts = list(extracted_shot.get_attributes_by_label('concepts'))
-        if len(concepts) > 0:
-            extracts['info'].extend(concepts)
-        
+        extracts['info'].extend(
+            list(extracted_shot.get_attributes_by_label('concepts'))
+        )
+
         shot['extracts'] = extracts
 
     return shot_chart
