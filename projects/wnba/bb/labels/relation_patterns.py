@@ -1,7 +1,7 @@
 from extr import RegExRelationLabelBuilder
 
 relation_patterns = [
-    RegExRelationLabelBuilder('is_units_of') \
+    RegExRelationLabelBuilder('is_of') \
         .add_e1_to_e2(
             e1='QUANTITY',
             relation_expressions=[

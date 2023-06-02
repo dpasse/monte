@@ -8,6 +8,7 @@ from extr.entities import create_entity_extractor, \
                           EntityAnnotator
 from extr.relations import RelationExtractor
 from extr.entities.context import ConText
+from extr.pipelines import EntityPipeline, RelationPipeline
 
 from bb.labels.entity_patterns import entity_patterns
 from bb.labels.relation_patterns import relation_patterns
@@ -17,43 +18,28 @@ from bb.knowledge.kb import kb
 from bb.utils.filesystem import load_data, save_data
 
 
-entity_extractor = create_entity_extractor(entity_patterns)
-
-entity_annotator = EntityAnnotator()
-relation_extractor = RelationExtractor(relation_patterns)
-
-conText = ConText(
-    rule_grouping=rule_grouping,
-    word_tokenizer=nltk.tokenize.word_tokenize
+relation_extractor = RelationPipeline(
+    EntityPipeline(
+        create_entity_extractor(entity_patterns),
+        KnowledgeBaseEntityLinker(
+            attribute_label='concepts',
+            kb=kb
+        ),
+        ConText(
+            rule_grouping=rule_grouping,
+            word_tokenizer=nltk.tokenize.word_tokenize
+        )
+    ),
+    EntityAnnotator(),
+    RelationExtractor(relation_patterns)
 )
-
-entity_linker = KnowledgeBaseEntityLinker(
-    attribute_label='concepts',
-    kb=kb
-)
-
-def extract_data(text: str):
-    entities = entity_extractor.get_entities(text)
-    entities = entity_linker.link(entities)
-    entities = conText.apply(
-        text,
-        entities,
-        filter_out_rule_labels=True
-    )
-    
-    relations = relation_extractor.extract(
-        entity_annotator.annotate(text, entities),
-        entities
-    )
-
-    return entities, relations
 
 def extract(shot_chart):
     for shot in shot_chart['shots']:
         extracts = {}
 
         text = shot['text']
-        entities, relations = extract_data(text)
+        entities, relations = relation_extractor.extract(text)
 
         id_to_relation = {}
         for relation in relations:
@@ -81,13 +67,15 @@ def extract(shot_chart):
             else:
                 extracts['before'] = ['pullup']
 
+        extracts['info'] = []
+
         ctypes = list(extracted_shot.get_attributes_by_label('ctypes'))
         if len(ctypes) > 0:
-            extracts['info'] = ctypes
+            extracts['info'].extend(ctypes)
 
         concepts = list(extracted_shot.get_attributes_by_label('concepts'))
         if len(concepts) > 0:
-            extracts['after'] = concepts
+            extracts['info'].extend(concepts)
         
         shot['extracts'] = extracts
 

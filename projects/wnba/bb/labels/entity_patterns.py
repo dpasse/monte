@@ -11,7 +11,7 @@ entity_patterns = [
                     r'\b(two|three)\s+point\s+pullup\s+jump\s+shot\b',
                     r'\b(two|three)\s+point\s+jumper\b',
                     r'\b(two|three)\s+point\s+shot\b',
-                    r'\b(two|three)\s+pointer',
+                    r'\b(two|three)\s+pointer\b',
                     r'\b((?:tip|hook|dunk)\s+shot)\b',
                     r'\b(jump\s+bank\s+shot)\b',
                     r'\b(free\s*throw)\b',

@@ -9,3 +9,6 @@ get-shot-charts:
 
 text-extract:
 	python text_extract.py
+
+merge:
+	python merge.py
