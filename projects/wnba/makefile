@@ -10,5 +10,8 @@ get-shot-charts:
 text-extract:
 	python text_extract.py
 
+label:
+	python label.py
+
 merge:
 	python merge.py
